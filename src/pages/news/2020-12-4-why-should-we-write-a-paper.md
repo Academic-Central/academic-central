@@ -7,7 +7,7 @@ description: The editor-in-chief, Prof. Yamazato, will talk about why we write
   session by the editorial board at the first Communication Society falg-ship
   conference, ICETC.
 featuredpost: false
-featuredimage: /img/B-PLUS.jpg
+featuredimage: /img/bplus.png
 tags:
   - Journal paper
   - Communication society
