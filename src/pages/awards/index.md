@@ -1,27 +1,18 @@
 ---
-templateKey: awards-page
-title: Awards
-description: We are delighted to announce the IEICE Best Paper Award. The list
-  of the awarded papers published in the transactions and magazine of the
-  communications society is as follows. Congratulations to all the award
-  winners.
-date: 2021-04-01T11:00:57.137Z
+templateKey: recommendations
+title: Recommended Presentations by Editorial Board
+description: "The IEICE Communication Society Editorial Board is pleased to
+  announce the launch of a new initiative to encourage authors of outstanding
+  papers to present their papers at international and technical committee
+  conferences organized by the IEICE Communication Society. "
+date: 2021-04-01T07:38:44.463Z
 ---
-The Communications Society established the Communications Society Excellent Paper Award in 2006 to select and award up to 11 outstanding papers per year in each category.  
+The IEICE Communication Society Editorial Board is pleased to announce the launch of a new initiative to encourage authors of outstanding papers to present their papers at international and technical committee conferences organized by the IEICE Communication Society. This initiative aims to increase the number of presentations at research meetings, international conferences, and workshops by strengthening the collaboration between the Technical Committee and the Editorial Board. It also aims to help authors of outstanding papers to develop their research by providing them with opportunities to present their work.  
 
-We also nominate three papes for the IEICE Best Paper Award.
+This initiative aims to increase the number of presentations at research meetings, international conferences, and workshops by strengthening the collaboration between the Technical Committee and the Editorial Board. It also aims to help authors of outstanding papers to develop their research by providing them with opportunities to present their work.  
 
-The IEICE Best Paper Award is given to three papers each year for the best papers published in the Society's journals.
+The following is the list of recommended papers selected by the editorial board.
 
-Please find the list of the awarded papers from the following.
+- 2021 Spring (Comming soon)
 
----------------
-
-- [IEICE Best Paper Award](https://www.ieice.org/eng_r/awards/new_honorary_members_award_winners.html?id=d)
-- [IEICE Communications Society Excellent Paper Award](https://www.ieice.org/cs_r/eng/about/award/ronbun.html)
-
----------------
-
-Congratulations to all the award winners.
-
-We highly recommend all members (regular members) of the Communications Society to nominate papers for the prize.
+- [2020 Fall](/news/2020-12-1-2020-Fall-Recommended-Presentations-by-Editorial-Board/)

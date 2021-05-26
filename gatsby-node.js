@@ -150,15 +150,18 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String
       tags: [String]
       date: Date @dateformat
-      eb: Indexes
-      jb: Indexes
-      comex: Indexes
-      bPlus: Indexes
+      ac1: Indexes
+      ac2: Indexes
+      ac3: Indexes
+      ac4: Indexes
+      ac5: Indexes
+      ac6: Indexes
     }
     type Fields {
       slug: String
     }
     type Indexes{
+      header: String
       text: String
     }
   `);

@@ -10,8 +10,8 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url('../img/home-jumbotron.jpg')`,
-            // backgroundImage: `url('img/home-jumbotron.jpg')`, // これはダメ           
+            backgroundImage: `url('../img/topics10_top.jpg')`,
+            // backgroundImage: `url('img/home-jumbotron.jpg')`, // これはダメ
             // backgroundImage: {data.markdownRemark.image},
             backgroundPosition: `top left`,
             backgroundAttachment: `fixed`

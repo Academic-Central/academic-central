@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 import SeO from "../components/seo";
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
-// import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 const IndexPageTemplate = ({ data }) => (
@@ -13,7 +13,7 @@ const IndexPageTemplate = ({ data }) => (
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url('img/home-jumbotron.jpg')`,
+        backgroundImage: `url('img/topics10_top.jpg')`,
         // backgroundImage: {data.markdownRemark.image},
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`
@@ -69,17 +69,17 @@ const IndexPageTemplate = ({ data }) => (
                       <div className="has-text-centered">
                         <div
                           style={{
-                            width: "240px",
+                            width: "300px",
                             display: "inline-block"
                           }}
                         >
                           <a href="https://www.ieice.org/cs/jpn/EB/index.html" target="_blank" rel="noopener noreferrer">
-                            <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.eb.image} />
-                            {/* <GatsbyImage image={ebimage} style={{ borderRadius: '5px' }} alt="IEICE EB" /> */}
+                            <StaticImage src="../img/ac1.jpg" alt="アカデミック・セントラル推進企画室 - インストラクショナル・デザインチーム" placeholder="blurred" width={240} />
                           </a>
                         </div>
+                        <h5>{data.markdownRemark.frontmatter.ac1.header}</h5>
                       </div>
-                      <p>{data.markdownRemark.frontmatter.eb.text}</p>
+                      <p>{data.markdownRemark.frontmatter.ac1.text}</p>
                       <div className="column is-12 has-text-centered">
                         <a className="btn" href="https://search.ieice.org/bin/index.php?category=B&amp;lang=E" target="_blank" rel="noopener noreferrer">
                           See latest papers
@@ -97,12 +97,13 @@ const IndexPageTemplate = ({ data }) => (
                           }}
                         >
                           <a href="https://www.ieice.org/publications/comex/" target="_blank" rel="noopener noreferrer">
-                            <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.comex.image} />
+                            <StaticImage src="../img/ac2.jpg" alt="高大接続連携部門" placeholder="blurred" layout="fixed" width={240} />
                             {/* <GatsbyImage image={comeximage} style={{ borderRadius: '5px' }} alt="IEICE ComEX" /> */}
                           </a>
                         </div>
+                        <h5>{data.markdownRemark.frontmatter.ac2.header}</h5>
                       </div>
-                      <p>{data.markdownRemark.frontmatter.comex.text}</p>
+                      <p>{data.markdownRemark.frontmatter.ac2.text}</p>
                       <div className="column is-12 has-text-centered">
                         <a className="btn" href="https://www.ieice.org/publications/comex/" target="_blank" rel="noopener noreferrer">
                           See latest papers
@@ -123,12 +124,13 @@ const IndexPageTemplate = ({ data }) => (
                           }}
                         >
                           <a href="https://www.ieice.org/cs/jpn/JB/index-new.html" target="_blank" rel="noopener noreferrer">
-                            <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.jb.image} />
+                            <StaticImage src="../img/ac3.jpg" alt="高度リベラル・アーツ教育共創部門" placeholder="blurred" layout="fixed" width={240} />
                             {/* <GatsbyImage image={jbimage} style={{ borderRadius: '5px' }} alt="IEICE JB" /> */}
                           </a>
                         </div>
+                        <h5>{data.markdownRemark.frontmatter.ac3.header}</h5>
                       </div>
-                      <p>{data.markdownRemark.frontmatter.jb.text}</p>
+                      <p>{data.markdownRemark.frontmatter.ac3.text}</p>
                       <div className="column is-12 has-text-centered">
                         <a className="btn" href="https://search.ieice.org/bin/index.php?category=B&amp;lang=J" target="_blank" rel="noopener noreferrer">
                           See latest papers
@@ -146,12 +148,62 @@ const IndexPageTemplate = ({ data }) => (
                           }}
                         >
                           <a href="https://www.ieice.org/~cs-edit/magazine/" target="_blank" rel="noopener noreferrer">
-                            <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.bPlus.image} />
-                            {/* <GatsbyImage image={bPlusimage} style={{ borderRadius: '5px' }} alt="IEICE bPlus" /> */}
+                            <StaticImage src="../img/ac4.jpg" alt="シームレス数理・データ科学教育共創部門" placeholder="blurred" layout="fixed" width={240} />
                           </a>
                         </div>
+                        <h5>{data.markdownRemark.frontmatter.ac4.header}</h5>
                       </div>
-                      <p>{data.markdownRemark.frontmatter.bPlus.text}</p>
+                      <p>{data.markdownRemark.frontmatter.ac4.text}</p>
+                      <div className="column is-12 has-text-centered">
+                        <a className="btn" href="https://www.ieice.org/~cs-edit/magazine/" target="_blank" rel="noopener noreferrer">
+                          See latest articles
+                        </a>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+
+                <div className="columns is-multiline">
+                  <div className="column is-6">
+                    <section className="section">
+                      <div className="has-text-centered">
+                        <div
+                          style={{
+                            width: "240px",
+                            display: "inline-block"
+                          }}
+                        >
+                          <a href="https://www.ieice.org/cs/jpn/JB/index-new.html" target="_blank" rel="noopener noreferrer">
+                            <StaticImage src="../img/ac5.jpg" alt="高トランスディシプリナリー博士課程教育推進部門（高度基盤教育），QTA・GSI トレーニングセンター（次世代リーダー養成）" placeholder="blurred" layout="fixed" width={240} />
+                            {/* <GatsbyImage image={jbimage} style={{ borderRadius: '5px' }} alt="IEICE JB" /> */}
+                          </a>
+                        </div>
+                        <h5>{data.markdownRemark.frontmatter.ac5.header}</h5>
+                      </div>
+                      <p>{data.markdownRemark.frontmatter.ac5.text}</p>
+                      <div className="column is-12 has-text-centered">
+                        <a className="btn" href="https://search.ieice.org/bin/index.php?category=B&amp;lang=J" target="_blank" rel="noopener noreferrer">
+                          See latest papers
+                        </a>
+                      </div>
+                    </section>
+                  </div>
+                  <div className="column is-6">
+                    <section className="section">
+                      <div className="has-text-centered">
+                        <div
+                          style={{
+                            width: "240px",
+                            display: "inline-block"
+                          }}
+                        >
+                          <a href="https://www.ieice.org/~cs-edit/magazine/" target="_blank" rel="noopener noreferrer">
+                            <StaticImage src="../img/ac6.jpg" alt="人生構想力教育共創部門（学生支援、生涯教育）" placeholder="blurred" layout="fixed" width={240} />
+                          </a>
+                        </div>
+                        <h5>{data.markdownRemark.frontmatter.ac6.header}</h5>
+                      </div>
+                      <p>{data.markdownRemark.frontmatter.ac6.text}</p>
                       <div className="column is-12 has-text-centered">
                         <a className="btn" href="https://www.ieice.org/~cs-edit/magazine/" target="_blank" rel="noopener noreferrer">
                           See latest articles
@@ -196,44 +248,31 @@ export const pageQuery = graphql`
         templateKey
         title
         subtitle
-        image {
-          childImageSharp {
-            gatsbyImageData(width: 2048, quality: 100, layout: CONSTRAINED)
-          }
-        }
         heading
         description
-        eb {
+        ac1 {
+          header
           text
-          image {
-            childImageSharp {
-              gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-            }
-          }
         }
-        comex {
+        ac2 {
+          header
           text
-          image {
-            childImageSharp {
-              gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-            }
-          }
         }
-        jb {
+        ac3 {
+          header
           text
-          image {
-            childImageSharp {
-              gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-            }
-          }
         }
-        bPlus {
+        ac4 {
+          header
           text
-          image {
-            childImageSharp {
-              gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-            }
-          }
+        }
+        ac5 {
+          header
+          text
+        }
+        ac6 {
+          header
+          text
         }
       }
       html
