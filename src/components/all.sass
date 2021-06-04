@@ -2,16 +2,33 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #004400
+$kaldi-red: #002c76
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-$body-color: #004400
+// $body-color: #002c76
 $black: #2b2523
 
-// .navbar .navbar-menu
-//   box-shadow:none  !important
+
+
+.navbar .navbar-item
+  color: #002c76
+
+.navbar .navbar-item.is-active
+  color: #002c76
+  font-weight: 700
+
+.navbar .navbar-item:hover
+  background: transparent
+  color:#FD461E
+
+.navbar .navbar-item a
+  // margin-left: 1rem
+  color: #002c76
+
+.blog-posts .post .post-title
+  font-size: 2.2rem
 
 .content .taglist
   list-style: none
@@ -23,6 +40,9 @@ $black: #2b2523
   flex-wrap: wrap
   justify-content: left
   align-items: center
+  letter-spacing: 0.05em
+  font-feature-settings: "palt" 1
+  line-height: 2.0
   li
     padding: 0 2rem 1rem 0
     margin-bottom: 1.5rem
@@ -86,8 +106,8 @@ footer.footer
 
 //Menu overrides
 $menu-item-color: $white-ter
-$menu-item-hover-color: $black !important
-$menu-item-hover-background-color: $black
+$menu-item-hover-color: $primary !important
+$menu-item-hover-background-color: $primary
 $menu-item-active-color: $kaldi-red-invert
 $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
@@ -137,3 +157,12 @@ $menu-label-color: $white-ter
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+
+
+body
+     letter-spacing: 0.05em
+     font-feature-settings: "palt" 1
+     line-height: 1.7
+
+.title .subtitle .post-title
+  color: #FD461E

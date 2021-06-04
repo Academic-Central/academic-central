@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 // import cslogo from "../img/ac-logo.svg";
-import logo from "../img/logo.jpg";
+import logo from "../img/ac-logo2.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -39,7 +39,7 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               {/* <img src={logo} alt="CS-Edit" style={{ width: '88px' }} /> */}
-              <img src={logo} alt="CS-Edit" style={{ width: "82px" }} />
+              <img src={logo} alt="CS-Edit" style={{ height: "80px" }} />
             </Link>
             {/* Hamburger menu */}
             <button
@@ -56,10 +56,21 @@ const Navbar = class extends React.Component {
             </button>
           </div>
           <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link">部門</a>
+
+              <div className="navbar-dropdown">
+                <Link className="navbar-item" to="/division/推進企画室/">
+                  推進企画室
+                </Link>
+                <hr className="navbar-divider" />
+                <a className="navbar-item">ID チーム</a>
+                <a className="navbar-item">⾼⼤接続部⾨</a>
+                <div className="navbar-item">Version 0.9.2</div>
+              </div>
+            </div>
+
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/division/">
-                部門
-              </Link>
               <Link className="navbar-item" to="/awards/">
                 表彰
               </Link>

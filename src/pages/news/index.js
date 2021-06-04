@@ -10,8 +10,8 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url('../img/topics10_top.jpg')`,
-            // backgroundImage: `url('img/home-jumbotron.jpg')`, // これはダメ
+            // backgroundImage: `url('../img/topics10_top.jpg')`,
+            backgroundImage: `url('../../img/home-jumbotron.jpg')`, // これはダメ
             // backgroundImage: {data.markdownRemark.image},
             backgroundPosition: `top left`,
             backgroundAttachment: `fixed`
@@ -20,8 +20,8 @@ export default class BlogIndexPage extends React.Component {
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
-              boxShadow: "0.5rem 0 0 #004400, -0.5rem 0 0 #004400",
-              backgroundColor: "#004400",
+              boxShadow: "0.5rem 0 0 #002c76, -0.5rem 0 0 #002c76",
+              backgroundColor: "#002c76",
               color: "white",
               padding: "1rem"
             }}

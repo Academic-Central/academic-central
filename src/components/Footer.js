@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 import logo from "../img/logo.jpg";
+// import aclogo from "../img/ac-logo2.svg";
 import facebook from "../img/social/facebook.svg";
 // import instagram from '../img/social/instagram.svg'
 import twitter from "../img/social/twitter.svg";
@@ -16,6 +17,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered">
           <a href="https://thers.ac.jp">
             <img src={logo} alt="東海国立大学機構アカデミック・セントラル" style={{ width: "328px", height: "144px" }} />
+            {/* <img src={aclogo} alt="東海国立大学機構アカデミック・セントラル" style={{ width: "328px", height: "144px" }} /> */}
           </a>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
@@ -74,16 +76,16 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://www.facebook.com/IEICE.org">
+                <a title="facebook" href="https://www.facebook.com/Nagoya.Univ.info">
                   <img src={facebook} alt="Facebook" style={{ width: "1em", height: "1em" }} />
                 </a>
-                <a title="twitter" href="https://twitter.com/ieice_EIC">
+                <a title="twitter" href="https://twitter.com/NagoyaUniv_info">
                   <img className="fas fa-lg" src={twitter} alt="Twitter" style={{ width: "1em", height: "1em" }} />
                 </a>
-                <a title="youtube" href="https://www.youtube.com/channel/UCDMkjDeK_8WafkMvIfbtTKQ">
+                <a title="youtube" href="https://www.youtube.com/user/NagoyaUniversityPR">
                   <img src={youtube} alt="youtube" style={{ width: "1em", height: "1em" }} />
                 </a>
-                <a title="github" href="https://github.com/Takaya-Yamazato/IEICE-CS-edit" target="_blank" rel="noopener noreferrer">
+                <a title="github" href="https://github.com/Takaya-Yamazato/academic-central" target="_blank" rel="noopener noreferrer">
                   <img src={github} alt="github" style={{ width: "1em", height: "1em" }} />
                 </a>
               </div>
