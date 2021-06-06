@@ -26,6 +26,7 @@ const PagesTemplate = ({ data, location }) => {
               {post.frontmatter.date}
               <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{post.frontmatter.title}</h1>
               <p>{post.frontmatter.description}</p>
+              <hr />
               <section dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" />
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>

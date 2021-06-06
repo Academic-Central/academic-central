@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = { borderRadius: '5px' }
@@ -23,6 +23,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     return <GatsbyImage image={childImageSharp.gatsbyImageData} style={imageStyle} alt={alt} />;
   }
 
+  return <StaticImage src="../img/ac-logo2.svg" alt="default image" />;
 
 }
 

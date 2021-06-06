@@ -1,47 +1,18 @@
 import * as React from "react";
 // import PropTypes from 'prop-types'
 import { Link, graphql } from "gatsby";
-import SeO from "../components/seo";
-import Layout from "../components/Layout";
-import BlogRoll from "../components/BlogRoll";
+import SeO from "../../components/seo";
+import Layout from "../../components/Layout";
 import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
 
 const IndexPageTemplate = ({ data }) => (
   <Layout>
-    <SeO title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description} />
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url('/img/home-jumbotron.jpg')`,
-        // backgroundImage: {data.markdownRemark.image},
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`
-      }}
-    >
-      <h1
-        className="has-text-weight-bold is-size-1"
-        style={{
-          boxShadow: "0.5rem 0 0 #002c76, -0.5rem 0 0#002c76",
-          backgroundColor: "#002c76",
-          color: "white",
-          padding: "1rem"
-        }}
-      >
-        {data.markdownRemark.frontmatter.title}
-      </h1>
-    </div>
-
-    <section className="blog-posts">
+    <section className="section section--gradient">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <br />
-            <div className="tile box">
-              <blockquote>
-                <div className="content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-              </blockquote>
-            </div>
+          <h1 className="title post-title">アカデミック・セントラルの各部門</h1>
 
             <div className="columns featured-post is-multiline">
               <div className="column is-12 post">
@@ -50,7 +21,7 @@ const IndexPageTemplate = ({ data }) => (
                     <article className="columns is-multiline">
                       <div className="column is-12 post-img">
                         <a href="https://www.thers.ac.jp/research/academic-central/" target="_blank" rel="noopener noreferrer">
-                          <StaticImage src="../img/ac1.jpg" alt="アカデミック・セントラル推進企画室" placeholder="blurred" />
+                          <StaticImage src="../../img/ac1.jpg" alt="アカデミック・セントラル推進企画室" placeholder="blurred" />
                         </a>
                       </div>
                       <div className="column is-12 featured-content ">
@@ -73,7 +44,7 @@ const IndexPageTemplate = ({ data }) => (
                   <div className="column post is-6">
                     <article className="columns is-multiline">
                       <div className="column is-12 post-img">
-                        <StaticImage src="../img/ac2.jpg" alt="インストラクショナル・デザインチーム" placeholder="blurred" />
+                        <StaticImage src="../../img/ac2.jpg" alt="インストラクショナル・デザインチーム" placeholder="blurred" />
                       </div>
                       <div className="column is-12 featured-content ">
                         <h3 className="heading post-category">全体企画立案</h3>
@@ -101,7 +72,7 @@ const IndexPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
-                    <StaticImage src="../img/ac3.jpg" alt="⾼⼤接続連携部⾨" placeholder="blurred" />
+                    <StaticImage src="../../img/ac3.jpg" alt="⾼⼤接続連携部⾨" placeholder="blurred" />
                   </div>
                   <div className="column is-12 featured-content ">
                     <h3 className="heading post-category">高校・大学接続関連</h3>
@@ -123,7 +94,7 @@ const IndexPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
-                    <StaticImage src="../img/ac4.jpg" alt="高度リベラル・アーツ教育共創 部門" placeholder="blurred" />
+                    <StaticImage src="../../img/ac4.jpg" alt="高度リベラル・アーツ教育共創 部門" placeholder="blurred" />
                   </div>
                   <div className="column is-12 featured-content ">
                     <h3 className="heading post-category">教養・共通教育</h3>
@@ -143,7 +114,7 @@ const IndexPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
-                    <StaticImage src="../img/ac5.jpg" alt="シームレス数理・データ科学教育共創 部門" placeholder="blurred" />
+                    <StaticImage src="../../img/ac5.jpg" alt="シームレス数理・データ科学教育共創 部門" placeholder="blurred" />
                   </div>
                   <div className="column is-12 featured-content ">
                     <h3 className="heading post-category">次世代教育</h3>
@@ -164,7 +135,7 @@ const IndexPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
-                    <StaticImage src="../img/ac6.jpg" alt="トランスディシプリナリー博士課程教育推進 部門" placeholder="blurred" />
+                    <StaticImage src="../../img/ac6.jpg" alt="トランスディシプリナリー博士課程教育推進 部門" placeholder="blurred" />
                   </div>
 
                   <div className="column is-12 featured-content ">
@@ -172,8 +143,7 @@ const IndexPageTemplate = ({ data }) => (
                     <h1 className="title post-title">博⼠課程部⾨</h1>
                     <div className="content">
                       <ul>
-                        <li>大学院生に対し、グローバルにその能力を発揮させるために、自分の専門領域の深い学識と卓越した能力に加えて、関係者との協働ネットワークを創造発展させる能力の育成</li>
-                        <li>プロフェッショナル・リテラシーの岐阜大学への展開</li>
+                        <li>大学院生に対し、グローバルにその能力を発揮させるために、自分の専門領域の深い学識と卓越した能力に加えて、関係者との協働ネットワークを創造発展させる能力の育成 プロフェッショナル・リテラシーの岐阜大学への展開</li>
                       </ul>
                     </div>
                     <br />
@@ -186,7 +156,7 @@ const IndexPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
-                    <StaticImage src="../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
+                    <StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
                   </div>
 
                   <div className="column is-12 featured-content ">
@@ -194,7 +164,7 @@ const IndexPageTemplate = ({ data }) => (
                     <h1 className="title post-title">QTA センター</h1>
                     <div className="content">
                       <ul>
-                        <li>大学院生が QTA、GSI として教育に参画するための体制の構築、育成研修の実施</li>
+                        <li>大学 院生が QTA、GSI として教育に参画するための体制の構築、育成研修の実施</li>
                       </ul>
                     </div>
                     <br />
@@ -207,7 +177,7 @@ const IndexPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
-                    <StaticImage src="../img/ac8.jpg" alt="人生構想力教育共創部門" placeholder="blurred" />
+                    <StaticImage src="../../img/ac8.jpg" alt="人生構想力教育共創部門" placeholder="blurred" />
                   </div>
 
                   <div className="column is-12 featured-content ">
@@ -230,17 +200,7 @@ const IndexPageTemplate = ({ data }) => (
                 </article>
               </div>
 
-              <div className="column is-12">
-                <hr />
-                <h3 className="has-text-weight-semibold is-size-2">News and Updates</h3>
-                <br />
-                <BlogRoll />
-                <div className="column is-12 has-text-centered">
-                  <Link className="btn" to="/news">
-                    Read more
-                  </Link>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
@@ -251,25 +211,4 @@ const IndexPageTemplate = ({ data }) => (
 
 export default IndexPageTemplate;
 
-export const pageQuery = graphql`
-  query IndexPageTemplate {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-      pathPrefix
-    }
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      id
-      frontmatter {
-        templateKey
-        title
-        subtitle
-        heading
-        description
-      }
-      html
-    }
-  }
-`;
+
