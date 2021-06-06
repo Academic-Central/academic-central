@@ -59,7 +59,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link">部門</a>
               <div className="navbar-dropdown">
-                <Link to="/division/推進企画室/">
+                <Link to="/division/Promotion-Planning-Office/">
                 <div className="navbar-item">推進企画室</div>
                 </Link>
                 <Link to="/division/Instructional-Design-Team/">
@@ -73,7 +73,7 @@ const Navbar = class extends React.Component {
                 <Link to="/division/Liberal-Arts/">
                 <div className="navbar-item">⾼度LA部⾨</div>
                 </Link>
-                <Link to="/division/Data-Sciences/">
+                <Link to="/division/Data-Science/">
                 <div className="navbar-item">数理・DS 部⾨</div>
                 </Link>
                 <Link to="/division/Doctoral-Education/">

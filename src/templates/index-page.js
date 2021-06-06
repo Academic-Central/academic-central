@@ -64,7 +64,7 @@ const IndexPageTemplate = ({ data }) => (
                           </ul>
                         </div>
                         <br />
-                        <Link className="btn" to="/division/推進企画室/">
+                        <Link className="btn" to="/division/Promotion-Planning-Office/">
                           Read more
                         </Link>
                       </div>
@@ -87,9 +87,9 @@ const IndexPageTemplate = ({ data }) => (
                           </ul>
                         </div>
                         <br />
-                        {/* <Link className="btn" to="https://www.thers.ac.jp/research/academic-central/">
+                        <Link className="btn" to="/division/Instructional-Design-Team/">
                           Read more
-                        </Link> */}
+                        </Link>
                       </div>
                     </article>
                   </div>
@@ -114,9 +114,9 @@ const IndexPageTemplate = ({ data }) => (
                       </ul>
                     </div>
                     <br />
-                    {/* <Link className="btn" to="/news">
+                    <Link className="btn" to="/division/High-School-University-Articulation/">
                       Read more
-                    </Link> */}
+                    </Link>
                   </div>
                 </article>
               </div>
@@ -134,7 +134,7 @@ const IndexPageTemplate = ({ data }) => (
                       </ul>
                     </div>
                     <br />
-                    <Link className="btn" to="/news">
+                    <Link className="btn" to="/division/Liberal-Arts/">
                       Read more
                     </Link>
                   </div>
@@ -155,9 +155,9 @@ const IndexPageTemplate = ({ data }) => (
                       </ul>
                     </div>
                     <br />
-                    {/* <Link className="btn" to="/news">
+                    <Link className="btn" to="/division/Data-Science/">
                       Read more
-                    </Link> */}
+                    </Link>
                   </div>
                 </article>
               </div>
@@ -177,9 +177,9 @@ const IndexPageTemplate = ({ data }) => (
                       </ul>
                     </div>
                     <br />
-                    {/* <Link className="btn" to="/news">
+                    <Link className="btn" to="/division/Doctoral-Education/">
                       Read more
-                    </Link> */}
+                    </Link>
                   </div>
                 </article>
               </div>
@@ -198,9 +198,9 @@ const IndexPageTemplate = ({ data }) => (
                       </ul>
                     </div>
                     <br />
-                    {/* <Link className="btn" to="/news">
+                    <Link className="btn" to="/division/QTA/">
                       Read more
-                    </Link> */}
+                    </Link>
                   </div>
                 </article>
               </div>
@@ -223,9 +223,9 @@ const IndexPageTemplate = ({ data }) => (
                       </ul>
                     </div>
                     <br />
-                    {/* <Link className="btn" to="/news">
+                    <Link className="btn" to="/division/Life-Concept/">
                       Read more
-                    </Link> */}
+                    </Link>
                   </div>
                 </article>
               </div>
