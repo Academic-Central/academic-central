@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const DivisionPageTemplate = ({ data }) => (
   <Layout>
-    <SeO title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description} />
+    <SeO title="アカデミック・セントラルの各部門" description="アカデミック・セントラルは，東海国立大学機構における教育の共同基盤の企画立案を行う組織です．" />
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
@@ -209,15 +209,3 @@ const DivisionPageTemplate = ({ data }) => (
 );
 
 export default DivisionPageTemplate;
-
-export const pageQuery = graphql`
-  query DivisionPageTemplate {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-      pathPrefix
-    }
-  }
-`;
