@@ -94,3 +94,47 @@ collections:
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Tags", name: "tags", widget: "list" }
+
+      - file: "src/pages/division/High-School-University-Articulation.md"
+        label: "High-School-University-Articulation"
+        name: "high-school-university-articulation"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "pages" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: Description, name: description, widget: string }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Tags", name: "tags", widget: "list" }
+
+      - file: "src/pages/division/Liberal-Arts.md"
+        label: "Liberal-Arts"
+        name: "liberal-arts"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "pages" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: Description, name: description, widget: string }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Tags", name: "tags", widget: "list" }
+
+      - file: "src/pages/division/Life-Concept.md"
+        label: "Life-Concept"
+        name: "life-concept"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "pages" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: Description, name: description, widget: string }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Tags", name: "tags", widget: "list" }
+
+      - file: "src/pages/division/QTA.md"
+        label: "QTA"
+        name: "qta"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "pages" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: Description, name: description, widget: string }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Tags", name: "tags", widget: "list" }
