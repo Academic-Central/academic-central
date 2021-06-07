@@ -47,7 +47,7 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <a className="navbar-item" href="https://ieice-cs-edit.netlify.app/admin/" target="_blank" rel="noopener noreferrer">
+                      <a className="navbar-item" href="https://academic-central.netlify.app/admin/" target="_blank" rel="noopener noreferrer">
                         Admin
                       </a>
                     </li>
