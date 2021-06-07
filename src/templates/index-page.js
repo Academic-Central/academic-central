@@ -4,8 +4,8 @@ import { Link, graphql } from "gatsby";
 import SeO from "../components/seo";
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import { StaticImage } from "gatsby-plugin-image";
+// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 const IndexPageTemplate = ({ data }) => (
   <Layout>

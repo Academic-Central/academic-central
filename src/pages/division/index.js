@@ -3,16 +3,17 @@ import * as React from "react";
 import { Link, graphql } from "gatsby";
 import SeO from "../../components/seo";
 import Layout from "../../components/Layout";
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
-import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
+import { StaticImage } from "gatsby-plugin-image";
+// import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
 
-const IndexPageTemplate = ({ data }) => (
+const DivisionPageTemplate = ({ data }) => (
   <Layout>
+    <SeO title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description} />
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-          <h1 className="title post-title">アカデミック・セントラルの各部門</h1>
+            <h1 className="title post-title">アカデミック・セントラルの各部門</h1>
 
             <div className="columns featured-post is-multiline">
               <div className="column is-12 post">
@@ -199,8 +200,6 @@ const IndexPageTemplate = ({ data }) => (
                   </div>
                 </article>
               </div>
-
-
             </div>
           </div>
         </div>
@@ -209,6 +208,16 @@ const IndexPageTemplate = ({ data }) => (
   </Layout>
 );
 
-export default IndexPageTemplate;
+export default DivisionPageTemplate;
 
-
+export const pageQuery = graphql`
+  query DivisionPageTemplate {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+      pathPrefix
+    }
+  }
+`;

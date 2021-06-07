@@ -57,36 +57,35 @@ const Navbar = class extends React.Component {
           </div>
           <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
             <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link">部門</a>
+              <div className="navbar-link">部門</div>
               <div className="navbar-dropdown">
                 <Link to="/division/Promotion-Planning-Office/">
-                <div className="navbar-item">推進企画室</div>
+                  <div className="navbar-item">推進企画室</div>
                 </Link>
                 <Link to="/division/Instructional-Design-Team/">
-                <div className="navbar-item">IDチーム</div>
+                  <div className="navbar-item">IDチーム</div>
                 </Link>
 
                 <hr className="navbar-divider" />
                 <Link to="/division/High-School-University-Articulation/">
-                <div className="navbar-item">⾼⼤接続部⾨</div>
+                  <div className="navbar-item">⾼⼤接続部⾨</div>
                 </Link>
                 <Link to="/division/Liberal-Arts/">
-                <div className="navbar-item">⾼度LA部⾨</div>
+                  <div className="navbar-item">⾼度LA部⾨</div>
                 </Link>
                 <Link to="/division/Data-Science/">
-                <div className="navbar-item">数理・DS 部⾨</div>
+                  <div className="navbar-item">数理・DS 部⾨</div>
                 </Link>
                 <Link to="/division/Doctoral-Education/">
-                <div className="navbar-item">博⼠課程部⾨</div>
+                  <div className="navbar-item">博⼠課程部⾨</div>
                 </Link>
-                
+
                 <Link to="/division/QTA/">
-                <div className="navbar-item">QTAセンター</div>
+                  <div className="navbar-item">QTAセンター</div>
                 </Link>
                 <Link to="/division/Life-Concept/">
-                <div className="navbar-item">⼈⽣構想⼒部⾨</div>
+                  <div className="navbar-item">⼈⽣構想⼒部⾨</div>
                 </Link>
-                
               </div>
             </div>
 
