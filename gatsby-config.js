@@ -3,13 +3,12 @@ module.exports = {
   //   DEV_SSR: true
   // },
   // pathPrefix: `~yamazato`,　//チェック用
-  pathPrefix: `/cs/cs-edit/en`, // https://www.ieice.org/cs/cs-edit/en/
   siteMetadata: {
-    title: "IEICE Communication Society Editorial Board",
-    description: "The IEICE Communication Society Editorial Board governs four of the society journals; IEICE Transaction on Communications, IEICE Transactions on Communications (Japanese Edition), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).",
-    siteUrl: `https://www.ieice.org/`,
+    title: "Academic Central - Tokai National Higher Education and Research System",
+    description: "Academic Central will design education in the Tokai National Higher Education and Research System and promote various initiatives in Gifu University and Nagoya University.",
+    siteUrl: `https://ac.thers.ac.jp/`,
     social: {
-      twitter: `ieice_EIC`
+      twitter: `nuocw`
     }
   },
   plugins: [
