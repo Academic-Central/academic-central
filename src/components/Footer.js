@@ -15,7 +15,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <a href="https://thers.ac.jp">
+          <a href="https://ac.thers.ac.jp">
             <img src={logo} alt="東海国立大学機構アカデミック・セントラル" style={{ width: "320px" }} />
             {/* <img src={aclogo} alt="東海国立大学機構アカデミック・セントラル" style={{ width: "328px", height: "144px" }} /> */}
           </a>
