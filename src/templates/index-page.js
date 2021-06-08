@@ -44,7 +44,7 @@ const IndexPageTemplate = ({ data }) => (
             </div>
 
             <div className="columns featured-post is-multiline">
-              <div className="column is-12 post">
+              <div className="column is-12 post is-offset-1">
                 <article className="columns featured">
                   <div className="column post is-6">
                     <article className="columns is-multiline">
