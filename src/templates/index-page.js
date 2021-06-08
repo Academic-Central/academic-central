@@ -44,7 +44,7 @@ const IndexPageTemplate = ({ data }) => (
             </div>
 
             <div className="columns featured-post is-multiline">
-              <div className="column is-12 post is-offset-1">
+              <div className="column is-12 post">
                 <article className="columns featured">
                   <div className="column post is-6">
                     <article className="columns is-multiline">
@@ -53,7 +53,7 @@ const IndexPageTemplate = ({ data }) => (
                           <StaticImage src="../img/ac1.jpg" alt="アカデミック・セントラル推進企画室" placeholder="blurred" />
                         </a>
                       </div>
-                      <div className="column is-12 featured-content ">
+                      <div className="column is-12 featured-content is-offset-1">
                         <h3 className="heading post-category">司令塔</h3>
                         <h1 className="title post-title">推進企画室</h1>
                         <div className="content">
