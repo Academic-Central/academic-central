@@ -39,7 +39,7 @@ jobs:
       #   run: ls -laFG
 
       # rsync の設定
-      - name: rsync deployments
+      - name: rsync deployments to hlc1
         uses: burnett01/rsync-deployments@4.1
         with:
           switches: -avzr --delete
