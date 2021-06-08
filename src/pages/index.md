@@ -6,7 +6,7 @@ date: 2021-03-28
 description: 東海国立大学機構教育基盤統括本部（アカデミック・セントラル）は，東海国立大学機構における教育の共同基盤の企画立案を行う組織です．
 ---
 
-[アカデミック・セントラル](https://www.thers.ac.jp/research/academic-central/)は，東海国立大学機構における教育の共同基盤の企画立案を行う組織です．
+[アカデミック・セントラル](https://www.thers.ac.jp/research/academic-central/)は，[東海国立大学機構](https://www.thers.ac.jp)における教育の共同基盤の企画立案を行う組織です．
 
 ### 勇気を持ってともに未来をつくる
 
