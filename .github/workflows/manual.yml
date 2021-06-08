@@ -48,3 +48,4 @@ jobs:
           remote_host: ${{ secrets.REMOTE_HOST }}
           remote_user: ${{ secrets.REMOTE_USER }}
           remote_key: ${{ secrets.ID_ECDSA_FREEDOM }}
+          remote_port: 22
