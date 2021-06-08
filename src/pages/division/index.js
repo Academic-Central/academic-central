@@ -1,6 +1,6 @@
 import * as React from "react";
 // import PropTypes from 'prop-types'
-import { Link, graphql } from "gatsby";
+import { Link } from "gatsby";
 import SeO from "../../components/seo";
 import Layout from "../../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
