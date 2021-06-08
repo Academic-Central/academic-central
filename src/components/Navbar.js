@@ -57,7 +57,11 @@ const Navbar = class extends React.Component {
           </div>
           <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
             <div className="navbar-item has-dropdown is-hoverable">
-              <div className="navbar-link">部門</div>
+              <div className="navbar-link">
+                <Link to="/division/">
+                  <div className="navbar-item">部門</div>
+                </Link>
+              </div>
               <div className="navbar-dropdown">
                 <Link to="/division/Promotion-Planning-Office/">
                   <div className="navbar-item">推進企画室</div>
