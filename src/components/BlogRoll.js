@@ -13,7 +13,7 @@ class BlogRoll extends React.Component {
         {posts &&
           posts.map(({ node: post }) => (
             <div className="column post is-4" key={post.id}>
-              <article className={`blog-list-item tile is-child box notification `}>
+              <article className={`blog-list-item tile is-child box notification is-featured`}>
                 {post.frontmatter.featuredimage ? (
                   <div className="column is-12 featured-content ">
                     <PreviewCompatibleImage
@@ -73,6 +73,7 @@ export default function BlogRollQuery() {
                   templateKey
                   date(formatString: "MMMM DD, YYYY")
                   description
+                  featuredpost
                   featuredimage {
                     childImageSharp {
                       gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
