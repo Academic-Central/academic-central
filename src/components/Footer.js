@@ -58,6 +58,11 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className="menu-list">
                     <li>
+                      <a className="navbar-item" href="https://www.thers.ac.jp">
+                        東海国立大学機構
+                      </a>
+                    </li>
+                    <li>
                       <a className="navbar-item" href="https://www.gifu.ac.jp">
                         岐阜大学
                       </a>
