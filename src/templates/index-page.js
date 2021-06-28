@@ -196,7 +196,7 @@ const IndexPageTemplate = ({ data }) => (
                       <ul>
                         <li>大学院生が QTA、GSI として教育に参画するための体制の構築、育成研修の実施</li>
                       </ul>
-                      <h5>QTA：Qualified Teaching Assistantの略称。　GSI：Graduate Student Instructorの略称。</h5>
+                      <p>QTA：Qualified Teaching Assistantの略称。　GSI：Graduate Student Instructorの略称。</p>
                     </div>
                     <br />
                     <Link className="btn" to="/division/QTA/">
