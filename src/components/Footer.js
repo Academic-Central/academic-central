@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 import logo from "../img/og-image.jpg";
-// import aclogo from "../img/ac-logo2.svg";
+import aclogo from "../img/AcademicCentaral.png";
 import facebook from "../img/social/facebook.svg";
 // import instagram from '../img/social/instagram.svg'
 import twitter from "../img/social/twitter.svg";
@@ -16,7 +16,7 @@ const Footer = class extends React.Component {
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
           <a href="https://ac.thers.ac.jp">
-            <img src={logo} alt="東海国立大学機構アカデミック・セントラル" style={{ width: "320px" }} />
+            <img src={aclogo} alt="東海国立大学機構アカデミック・セントラル" style={{ width: "400px" }} />
             {/* <img src={aclogo} alt="東海国立大学機構アカデミック・セントラル" style={{ width: "328px", height: "144px" }} /> */}
           </a>
         </div>
