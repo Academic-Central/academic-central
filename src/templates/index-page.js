@@ -13,12 +13,21 @@ const IndexPageTemplate = ({ data }) => (
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url('/img/AC-banner_1920_1280.png')`,
+        backgroundImage: `url('/img/AC-banner_3840_640.png')`,
+        // backgroundImage: `url('/img/AC-banner_1920_1280.png')`,
+        // backgroundImage: `url('/img/AC-banner_960_640.jpg')`,
         // backgroundImage: {data.markdownRemark.image},
-        backgroundPosition: `top left`,
+        backgroundPosition: `top center`,
+        // backgroundPosition: `bottom center`,
         backgroundAttachment: `fixed`
       }}
     >
+      {/* <div
+      className="full-width-image margin-top-0,
+        backgroundPosition: `top center`,
+        backgroundAttachment: `fixed`"
+    >
+      <StaticImage src="../../static/img/AC-banner_1920_1280.png" layout="fullWidth" alt="アカデミック・セントラル" placeholder="blurred" /> */}
       <h1
         className="has-text-weight-bold is-size-1"
         style={{

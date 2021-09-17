@@ -35,12 +35,16 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  // height: 400px
+  height: 640px
   position: relative
   left: 50%
   right: 50%
   margin: 2em -50vw
-  background-size: cover
+  // margin-left: calc(-50vw + 50%)
+  // background-size: cover
+  background-size: auto
+  background-color: black
   background-position: bottom
   display: flex
   justify-content: center
@@ -48,9 +52,13 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
-    background-size: cover
+    // height: 400px
+    height: 640px
+    // background-size: cover
+    background-size: auto
+    // margin-left: calc(-50vw + 50%)
     background-position: bottom
+    background-repeat: no-repeat
     display: flex
     justify-content: center
     align-items: center
