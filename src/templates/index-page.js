@@ -11,7 +11,7 @@ const IndexPageTemplate = ({ data }) => (
   <Layout>
     <SeO title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description} />
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image margin-top-0  is-hidden-mobile"
       style={{
         backgroundImage: `url('/img/AC-banner_3840_640.png')`,
         // backgroundImage: `url('/img/AC-banner_1920_1280.png')`,
@@ -22,14 +22,8 @@ const IndexPageTemplate = ({ data }) => (
         backgroundAttachment: `fixed`
       }}
     >
-      {/* <div
-      className="full-width-image margin-top-0,
-        backgroundPosition: `top center`,
-        backgroundAttachment: `fixed`"
-    >
-      <StaticImage src="../../static/img/AC-banner_1920_1280.png" layout="fullWidth" alt="アカデミック・セントラル" placeholder="blurred" /> */}
       <h1
-        className="has-text-weight-bold is-size-1"
+        className="has-text-weight-bold is-size-2  is-hidden-mobile"
         style={{
           boxShadow: "0.5rem 0 0 #002c76, -0.5rem 0 0#002c76",
           backgroundColor: "#002c76",
@@ -39,6 +33,29 @@ const IndexPageTemplate = ({ data }) => (
       >
         {data.markdownRemark.frontmatter.title}
       </h1>
+    </div>
+    <div
+      className="full-width-image margin-top-0 is-hidden-tablet"
+      style={{
+        backgroundImage: `url(/img/AC-banner_720_480.png)`,
+        backgroundPosition: `top center `,
+        backgroundSize: `cover`,
+        // backgroundAttachment: `fixed`,
+        // coverとfixedが両方あるとiPhoneではうまく行かないらしいのでアプデ待ち
+        backgroundRepeat: `no-repeat`
+      }}
+    >
+      <h3
+        className="has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-widescreen has-text-centered"
+        style={{
+          boxShadow: "0.5rem 0 0 #002c76, -0.5rem 0 0#002c76",
+          backgroundColor: "#002c76",
+          color: "white",
+          padding: "1rem"
+        }}
+      >
+        {data.markdownRemark.frontmatter.title}
+      </h3>
     </div>
 
     <section className="blog-posts">
