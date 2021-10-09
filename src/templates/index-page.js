@@ -38,7 +38,7 @@ const IndexPageTemplate = ({ data }) => (
       </h1>
     </div>
     <div
-      className="full-width-image margin-top-0 is-hidden-tablet"
+      className="full-width-image margin-top-0 is-hidden-tablet is-flex-mobile"
       style={{
         // backgroundImage: `url(/img/AC-banner_750_375.png)`,
         backgroundImage: `url(/img/AC-banner_640_640.png)`,
