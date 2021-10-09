@@ -11,24 +11,27 @@ const IndexPageTemplate = ({ data }) => (
   <Layout>
     <SeO title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description} />
     <div
-      className="full-width-image margin-top-0  is-hidden-mobile"
+      className="full-width-image margin-top-0 is-hidden-mobile"
       style={{
-        backgroundImage: `url('/img/AC-banner_3840_640.png')`,
+        backgroundImage: `url('/img/AC-banner_4780_768.png')`,
+        // backgroundImage: `url('/img/AC-banner_3840_640.png')`,
         // backgroundImage: `url('/img/AC-banner_1920_1280.png')`,
         // backgroundImage: `url('/img/AC-banner_960_640.jpg')`,
         // backgroundImage: {data.markdownRemark.image},
         backgroundPosition: `top center`,
         // backgroundPosition: `bottom center`,
-        backgroundAttachment: `fixed`
+        backgroundAttachment: `cover`
       }}
     >
       <h1
-        className="has-text-weight-bold is-size-2  is-hidden-mobile"
+        className="has-text-weight-bold is-size-2 is-hidden-mobile"
         style={{
           boxShadow: "0.5rem 0 0 #002c76, -0.5rem 0 0#002c76",
           backgroundColor: "#002c76",
           color: "white",
-          padding: "1rem"
+          padding: "1rem",
+          position: "absolute",
+          top: "100px"
         }}
       >
         {data.markdownRemark.frontmatter.title}
@@ -37,7 +40,8 @@ const IndexPageTemplate = ({ data }) => (
     <div
       className="full-width-image margin-top-0 is-hidden-tablet"
       style={{
-        backgroundImage: `url(/img/AC-banner_720_480.png)`,
+        // backgroundImage: `url(/img/AC-banner_750_375.png)`,
+        backgroundImage: `url(/img/AC-banner_640_640.png)`,
         backgroundPosition: `top center `,
         backgroundSize: `cover`,
         // backgroundAttachment: `fixed`,
@@ -46,12 +50,14 @@ const IndexPageTemplate = ({ data }) => (
       }}
     >
       <h3
-        className="has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-widescreen has-text-centered"
+        className="mt-50 has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-widescreen has-text-centered"
         style={{
           boxShadow: "0.5rem 0 0 #002c76, -0.5rem 0 0#002c76",
           backgroundColor: "#002c76",
           color: "white",
-          padding: "1rem"
+          padding: "1rem",
+          position: "absolute",
+          top: "100px"
         }}
       >
         {data.markdownRemark.frontmatter.title}
