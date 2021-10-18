@@ -1,4 +1,13 @@
-# academic-central
+<p align="center">
+  <a href="https://www.gatsbyjs.com">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  academic-central
+</h1>
+
+このサイトは [Gatsby](https://www.gatsbyjs.com/) を使って作成しています．
 
 ### 注意：
 
@@ -7,7 +16,7 @@ Github のアカウントがあることを前提にしています。
 
 また、ビルドには `yarn` もしくは　｀ npm` が必要になります。
 
-## インストール
+## 🚀 インストール
 
 まず、Github からクローンします。
 適当な作業ディレクトに移動して、以下を実行。
@@ -32,20 +41,27 @@ CONTRIBUTING.md    README.md          gatsby-config.js   lambda             pack
 ディレクトリは以下のようになっています．
 
 ```
+$ tree -L 1
 .
-├── node_modules
-├── src
-├── .gitignore
-├── .prettierrc
-├── gatsby-browser.js
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── _headers
 ├── gatsby-config.js
 ├── gatsby-node.js
-├── gatsby-ssr.js
-├── LICENSE
-├── package-lock.json
+├── lambda
+├── netlify.toml
+├── node_modules
 ├── package.json
-└── README.md
+├── public
+├── renovate.json
+├── src
+├── static
+└── yarn.lock
 ```
+
+以下，重要なものだけ説明します．
 
 /node_modules:
 ここに npm package でインストールしたモジュールが入ります．
@@ -55,6 +71,15 @@ CONTRIBUTING.md    README.md          gatsby-config.js   lambda             pack
 このディレクトリに公開用のファイルが一式入ります．
 つまり，ブラウザで表示するのに必要なファイル全てが格納されています．
 従って，このディレクトリに入っているファイルの修正，追加，削除することで Web ページのデザインを行います．
+
+/static:
+このディレクトリは，Gatsby では参照されのみで特段の操作は行いません．
+従って，こちらには画像ファイルや既に作成してある静的ファイルなどをおきます．
+
+/public:
+公開用のディレクトリです．
+gatsby build を実行すると，このディレクトリに公開用ファイルが生成されます．
+また，gatsby clean を実行すると，このディレクトリとキャッシュがクリアされます．
 
 .gitignore:
 Github リポジトリから除外するファイルを指定します．
@@ -103,4 +128,14 @@ README.md:
 
 ディベロプとは、公開前の一次チェックをするために html, Javascript や CSS ファイルを作成することを言います。
 
-!
+```
+% gatsby clean && gatsby develop
+(npm run clean; npm run develop でもOK)
+```
+
+http://localhost:8000/ で見ることができます．
+
+## 公開
+
+Github Actions を設定してありますので，github に push すると自動でスクリプトが走り，公開ファイルを転送します．
+Github Actions の設定ファイルは `.github/workflows/manual.yml` です．
