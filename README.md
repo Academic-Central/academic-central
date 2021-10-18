@@ -14,7 +14,7 @@
 Github のアカウントがあることを前提にしています。
 [大学関係者であれば、Github Pro アカウント](https://docs.github.com/ja/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount)を取得できます。
 
-また、ビルドには `yarn` もしくは　｀ npm` が必要になります。
+また、ビルドには `yarn` もしくは　`npm` が必要になります。
 
 ## 🚀 インストール
 
@@ -69,11 +69,11 @@ $ tree -L 1
 
 /src:
 このディレクトリに公開用のファイルが一式入ります．
-つまり，ブラウザで表示するのに必要なファイル全てが格納されています．
+つまり，ブラウザで表示するのに必要なファイルが格納されています．
 従って，このディレクトリに入っているファイルの修正，追加，削除することで Web ページのデザインを行います．
 
 /static:
-このディレクトリは，Gatsby では参照されのみで特段の操作は行いません．
+このディレクトリは，Gatsby では参照されるのみで特段の操作は行いません．
 従って，こちらには画像ファイルや既に作成してある静的ファイルなどをおきます．
 
 /public:
@@ -97,7 +97,7 @@ package.json:
 Node で実行するパッケージを指定するファイルです．
 
 README.md:
-このフィあるです．
+このファイルです．
 
 ### 環境構築
 
