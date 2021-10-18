@@ -137,5 +137,5 @@ http://localhost:8000/ で見ることができます．
 
 ## 公開
 
-Github Actions を設定してありますので，github に push すると自動でスクリプトが走り，公開ファイルを転送します．
+Github Actions を設定してありますので，github の main branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
 Github Actions の設定ファイルは `.github/workflows/manual.yml` です．
