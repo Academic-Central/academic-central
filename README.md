@@ -107,9 +107,10 @@ README.md:
 % yarn
 ```
 
-`npm install` でも OK ですが、`yarn｀の方が早いです。 なお、`yarn`と`npm`を混在して使うと誤動作する場合がありますので、やめましょう。
+`npm install` でも OK ですが、`yarn`の方が早いです。
+なお、`yarn`と`npm`を混在して使うと誤動作する場合がありますので、やめましょう。
 
-##　ビルド (build)
+## ビルド (build)
 
 ビルドとは、サイトを公開するための html, Javascript や CSS ファイルを作成することを言います。
 ビルドが通れば Warning が出ても問題ありません。
@@ -122,7 +123,7 @@ README.md:
 ```
 
 最初の `gatsby clean` はキャッシュや不要ファイルを削除するコマンドです。
-`npm run clean, npm run buil` は｀ package.json`で定義されています。
+`npm run clean, npm run build` は `package.json`で定義されています。
 
 ## ディベロプ (develop)
 
@@ -139,3 +140,127 @@ http://localhost:8000/ で見ることができます．
 
 Github Actions を設定してありますので，github の main branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
 Github Actions の設定ファイルは `.github/workflows/manual.yml` です．
+
+# コンテンツの追加，修正，削除
+
+コンテンツデータは，src/pages に入っているマークダウンファイルです．
+
+```
+├── src
+│   ├── img
+│   ├── pages
+│   │   ├── 404.js
+│   │   ├── awards
+│   │   │   └── index.md
+│   │   ├── contact
+│   │   │   └── index.js
+│   │   ├── division
+│   │   │   ├── Data-Science.md
+│   │   │   ├── Doctoral-Education.md
+│   │   │   ├── High-School-University-Articulation.md
+│   │   │   ├── Instructional-Design-Team.md
+│   │   │   ├── Liberal-Arts.md
+│   │   │   ├── Life-Concept.md
+│   │   │   ├── Promotion-Planning-Office.md
+│   │   │   ├── QTA.md
+│   │   │   └── index.js
+│   │   ├── index.md
+│   │   ├── news
+│   │   │   ├── 2021-06-07-トップリーダートーク.md
+│   │   │   ├── 2021-06-07-名古屋大学全学教育物理学実験.md
+│   │   │   ├── 2021-06-24-化学実験ホームページ.md
+│   │   │   ├── 2021-07-13-アカデミック・イングリッシュ支援室（access）.md
+│   │   │   └── index.js
+│   │   └── tags
+│   │       └── index.js
+```
+
+## コンテンツの修正
+
+src/pages のマークダウンファイルを編集してください．
+
+## コンテンツの削除
+
+src/pages のマークダウンファイルを削除してください．
+
+## コンテンツの追加
+
+src/pages に新しいマークダウンファイルを追加してください．
+マークダウンファイルは，同じディレクトリにあるファイルをコピーし，ファイル名を変更して作成するのが早いです．
+このとき，マークダウンファイルに記載のフォーマットは変更しないようにしてください．
+特に上段の Frontmatter の項目は Gatsby が参照しますので，コロン以降のみ変更するようにしてください．
+
+以下，src/news の 2021-06-07 トップリーダートーク.md を例に説明します．
+
+ファイル名がそのまま slug になります．たとえば，この例ですと，
+
+https://ac.thers.ac.jp/news/2021-06-07-トップリーダートーク/
+
+となります．
+
+src/news/2021-06-07 トップリーダートーク.md は以下のようになっています．
+
+```
+templateKey: blog-post
+title: トップリーダートーク
+date: 2021-05-06T10:05:39.789Z
+description: >-
+  トップリーダートークでは、各界の指導的立場にある産学官のトップリーダーを招き、レクチャーやディスカッションを通じてトップの役割や使命、リーダーシップのあり方などを直接学ぶ機会を提供しています。
+
+  今回は東海国立大学機構長・名古屋大学総長である松尾清一氏をお招きし、「私の歩んできた道ー安定は動の中に在り」というテーマで講演をしていただきます。
+featuredpost: true
+featuredimage: /img/coffee.png
+tags:
+  - トップリーダートーク
+  - 博士課程教育推進機構
+  - 松尾清一氏（東海国立大学機構長・名古屋大学総長）
+---
+
+# 松尾清一氏（東海国立大学機構長・名古屋大学総長）
+
+参加にあたって 2 種類の参加方法があります。
+.....
+
+```
+
+ここで，`templateKey: blog-post` は変更してはいけません．
+この templateKey は src/pages 以下のディレクトリでそれぞれ指定され，指定されたテンプレートを利用して表示用ファイルが生成されます．
+News の場合は templateKey を blog-post と指定しています．なお，awards の場合は awards-page と指定します．
+
+`title` はタイトルですので，適宜修正してください．
+
+`description` は概要ですので，適宜修正してください．
+
+`featuredpost: true` はそのまま変更しなくて結構です．
+
+`featuredimage` はアイキャッチ画像になります．ディフォルト画像は static/img/ にある画像です．
+アップロードして利用したい場合には static/img/ におき，/img/ファイル名 で指定してください．
+たとえば，static/img/ac1.jpg を指定する場合は `featuredimage: /img/ac1.jpg` となります．
+
+`date` は掲載日ですので，適宜修正してください．
+
+`tags` はタグになります．タグは上に記載のように「-」で一行にひとつ書いてください．
+
+ここまでが，Frontmatter です．
+「---」以降が本文になり，マークダウン形式で記載してください．
+
+この例ですと
+
+```
+# 松尾清一氏（東海国立大学機構長・名古屋大学総長）
+
+参加にあたって 2 種類の参加方法があります。
+．．．
+```
+
+が本文になり，マークダウン形式で記載されています．
+
+# Github でのデータ修正
+
+このサイトは Github Actions を設定してあります．
+Github の main branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
+
+従って，データ修正は main branch では行わず，branch をきってからデータ修正を行ってください．
+データ修正後は `gatsby develop` で問題無いことを確認の上，pull request を行い，main branch へマージしてください．
+
+面倒ですが，main branch とは異なる branch で作業することで，思わぬミスを防ぐことができますので安全です．
