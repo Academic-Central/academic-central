@@ -30,6 +30,8 @@ CONTRIBUTING.md    README.md          gatsby-config.js   lambda             pack
 🧐 What's inside?
 
 ディレクトリは以下のようになっています．
+
+```
 .
 ├── node_modules
 ├── src
@@ -43,6 +45,7 @@ CONTRIBUTING.md    README.md          gatsby-config.js   lambda             pack
 ├── package-lock.json
 ├── package.json
 └── README.md
+```
 
 /node_modules:
 ここに npm package でインストールしたモジュールが入ります．
