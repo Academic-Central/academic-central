@@ -255,7 +255,7 @@ News の場合は templateKey を blog-post と指定しています．なお，
 
 が本文になり，マークダウン形式で記載されています．
 
-# Github でのデータ修正
+# Github でのデータの追加・修正・削除
 
 このサイトは Github Actions を設定してあります．
 Github の main branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
@@ -264,3 +264,11 @@ Github の main branch に push すると自動でスクリプトが走り，公
 データ修正後は `gatsby develop` で問題無いことを確認の上，pull request を行い，main branch へマージしてください．
 
 面倒ですが，main branch とは異なる branch で作業することで，思わぬミスを防ぐことができますので安全です．
+
+# Netlify CMS でのデータの追加・修正・削除
+
+データの追加・修正・削除は [Netlify CMS](https://academic-central.netlify.app/admin/#/collections/news)でもできます。
+
+<img width="988" alt="スクリーンショット 2021-10-19 14 01 34" src="https://user-images.githubusercontent.com/12372151/137847935-cd017206-0e24-435f-8190-b6654d063e3d.png">
+
+![Netlify CMS](<img width="988" alt="スクリーンショット 2021-10-19 14 01 34" src="https://user-images.githubusercontent.com/12372151/137847935-cd017206-0e24-435f-8190-b6654d063e3d.png">)
