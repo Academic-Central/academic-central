@@ -2,8 +2,10 @@
 templateKey: blog-post
 title: Teaching tips for first-time online lecturers
 date: 2021-12-03T04:16:10.470Z
-description: About teaching tips for first-time online lecturers.
+description: Introduce teaching tips for first-time online lecturers.
 featuredimage: /img/online-study.png
+tags:
+  - Online lecture
 ---
 - - -
 
