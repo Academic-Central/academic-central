@@ -9,17 +9,17 @@ tags:
 ---
 - - -
 
-* Place utmost priority on learners
-* Choose the right method for online teaching
-* Tips for all classes
-* Live online lecture (Everyone is online)
-* Live online lecture (Some participate online)
-* Distribute the learning assignments
-* Distribute lecture slids
-* Delivering lecture video
+* [Place utmost priority on learners](#anchor1)
+* [Choose the right method for online teaching](#anchor2)
+* [Tips for all classes](#anchor3)
+* [Live online lecture (Everyone is online)](#anchor4)
+* [Live online lecture (Some participate online)](#anchor5)
+* [Distribute the learning assignments](#anchor6)
+* [Distribute lecture slids](#anchor7)
+* [Delivering lecture video](#anchor8)
 
 - - -
-
+<a id="anchor1"></a>
 #### Place utmost priority on learners
 
 The purpose is for students to study and reach their goals. It is not intended for lecturers to conduct classes online. Do not get caught up in the online method.
@@ -30,7 +30,7 @@ You do not have to do everything by yourself. If you have a video of someone els
 If you have a co-worker or TA familiar with ICT nearby, you should rely on them. If some of the students in the class have ideas, let them work.
 
 - - -
-
+<a id="anchor2"></a>
 #### Choose the right method for online teaching
 
 There are several ways to teach online.
@@ -49,7 +49,7 @@ Asynchronous learning is generally more difficult for students to learn because 
 ![](/img/table1.png)
 
 - - -
-
+<a id="anchor3"></a>
 #### Tips for all classes
 
 Before preparing the teaching material, nail down the topic. Online learning is an unfamiliar style of learning that makes it difficult for students to see where they are going. Before you start developing your content, create a quiz or set an essay topic about what you want your students to at least understand in the class.
@@ -80,7 +80,7 @@ Try to explain the specific parts that many students had difficulties in underst
 Also, present the points of contention and the viewpoints when providing existing reading materials.
 
 - - -
-
+<a id="anchor4"></a>
 #### Live online lecture (Everyone is online)
 
 If everyone is online, ZOOM is the right choice.
@@ -112,7 +112,7 @@ Instruct students to work on the assignment at the end of the class or after the
 It is convenient to have two PCs. One is for lectures, and the other is for checking what the participants see.
 
 - - -
-
+<a id="anchor5"></a>
 #### Live online lecture (Some participate online)
 
 The Vidyo is the right choice in the case where some students are in the classroom, and others are online.
@@ -127,7 +127,7 @@ Even if there are only a small number of students in the classroom, always use a
 Provide speaking opportunities for online participants every 15 minutes to capture the learning status of students who are not in the classroom. Appoint students to speak out by asking for answers to questions.
 
 ---
-
+<a id="anchor6"></a>
 #### Distribute learning assignments
 
 Assignments, reports, and exercises are effective methods for promoting a deeper understanding of class.
@@ -149,7 +149,7 @@ Labeling the categories of the tasks can help students understand which task is 
 In addition to simply finding a solution, assignments, such as creating a question that meets certain conditions, are effective in promoting a deeper understanding.
 
 ---
-
+<a id="anchor7"></a>
 #### Distribute lecture slids
 
 While viewing lecture slides is a form of learning that students can progress at their own pace, it is difficult to deeply understand lectures.
@@ -169,7 +169,7 @@ Try to control the pace of students' learning by setting deadlines on the day of
 By requiring students to ask questions, you can grasp which part is confusing or where they tend to be struggling to understand the slides.
 
 ---
-
+<a id="anchor8"></a>
 #### Delivering lecture videos
 
 Lecture videos are another learning style that students can learn at their own pace, but again it is difficult to fully understand the contents.
