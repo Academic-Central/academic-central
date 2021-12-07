@@ -7,20 +7,20 @@ featuredimage: /img/online-study.png
 tags:
   - Online lecture
 ---
-* Before creating online materials
+* [Before creating online materials](#anchor1)
   
-  * Available tools
-  * Checking students’ Internet environment
-  * Introducing online tools to students
+  * [Available tools](#anchor2)
+  * [Checking students’ Internet environment](#anchor3)
+  * [Introducing online tools to students](#anchor4)
 
-* Creating online materials
+* [Creating online materials](#anchor5)
 
-  * On-demand online materials
-  * Two-way synchronous (videoconferencing) materials
+  * [On-demand online materials](#anchor6)
+  * [Two-way synchronous (videoconferencing) materials](#anchor7)
 
-* Online materials and copyrights
+* [Online materials and copyrights](#anchor8)
 
-* Useful links
+* [Useful links](#anchor9)
 
 The contents of this site are based on the workshop on March 23 by Prof. Toda from the Information Technology Center and Prof. Nakajima from the Center for the Studies of Higher Education.
 
@@ -28,7 +28,7 @@ The contents of this site are based on the workshop on March 23 by Prof. Toda fr
  ・[Get the workshop materials (Japanese)](https://ct.nagoya-u.ac.jp/access/content/public/%E7%B7%8A%E6%80%A5%E8%AC%9B%E7%BF%92%E4%BC%9A%E8%B3%87%E6%96%99%E3%81%B8%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9.pdf)
 
 ---
-
+<a id="anchor1"></a>
 ## Before creating online materials
 
 1) Check your course syllabus and its goals. You need to create assignments and materials for each lesson to meet the goals.
@@ -48,7 +48,7 @@ You can refer to the following tips (in Japanese) by the the Center for the Stud
 
 
 　 ・[Seven proposals for using IT in lessons (Japanese)](https://www.cshe.nagoya-u.ac.jp/seven/it/index.htm)
-
+<a id="anchor2"></a>
 ### Available tools
 
 #### NUCT
@@ -135,7 +135,7 @@ Free online materials provided by universities
 
 
  　・Ted Talks
-
+<a id="anchor3"></a>
 ### Checking students’ Internet environment
 
 According to a Nagoya University’s poll, although most students have PCs and smartphones, only half of them have a broadband Internet connection at home. Many students use smartphones for their Internet connection.
@@ -145,7 +145,7 @@ According to a Nagoya University’s poll, although most students have PCs and s
 You need to keep in mind that students may have problems if you provide large online files or use Zooms for a long time. For example, Zoom consumes 150-300MB per hour. For the sake of your students, try to make your online files smaller or use a videoconferencing service at minimum occasions such as at the beginning of the lecture or at the Q & A session only.
 
 
-
+<a id="anchor4"></a>
 ### Introducing online tools to students
 
 At the first class session, you need to explain how you will proceed the sessions and what online tools you will use. You need to check and make sure that students can use the online tools. It is a good idea if you actually use and show the tools in the classroom. For example, at NUCT, you can easily switch your role to a student and can show what students can do with NUCT.
@@ -162,11 +162,11 @@ At the first class session, you need to explain how you will proceed the session
 　 ・[Academic skills guide for Nagoya University students (Japanese)](https://www.cshe.nagoya-u.ac.jp/asg/)
 
 ---
-
+<a id="anchor5"></a>
 
 
 ## Creating online materials
-
+<a id="anchor6"></a>
 ### On-demand online materials
 
 You are going to upload these materials on an LMS such as NUCT. Slides are the most popular materials that can be created by PowerPoint or Keynote.
@@ -195,7 +195,7 @@ Here are some tips when you create slide files.
 
 
 　 ・[How to record your voice (Keynote)](https://support.apple.com/ja-jp/guide/keynote/tan8a5df9cc5/mac)
-
+<a id="anchor7"></a>
 ### Two-way synchronous (videoconferencing) materials
 
 With videoconferencing services such as Zoom, you can conduct the lessons that are not very different from regular face-to-face sessions.  
@@ -218,7 +218,7 @@ Here are some tips when you conduct videoconferencing lessons.
 　 ・[Sharing a whiteboard (Zoom)](https://support.zoom.us/hc/en-us/articles/205677665-Sharing-a-whiteboard)
 
 ---
-
+<a id="anchor8"></a>
 ## Online materials and copyrights
 
 Currently, the Japanese Copyright Law does not still allow you to use copyrighted materials for public transmission without asking for permission, regardless of whether you upload them on NUCT or stream them to students through Zoom or Vidyo.
@@ -238,7 +238,7 @@ However, it is advisable that you still follow the current law and use copyright
 
 
 ---
-
+<a id="anchor9"></a>
 ## Useful links
 
 You can refer to the following links when creating online materials.
