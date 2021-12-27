@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
-title: オンライン授業の講習会/Hands-on workshop on online lecture at Nagoya University／
+title: オンライン授業の講習会/Hands-on workshop on online lecture at Nagoya University
 date: 2021-12-27T02:42:08.942Z
-description: 過去に実施されたオンライン授業の講習会についてまとめました。当日の資料・動画もあります。/This is a summary of
+description: 過去に実施されたオンライン授業の講習会についてまとめました。当日の資料・動画もあります。This is a summary of
   hands-on workshop on online-lecture. You can find presented materials and
   videos here.
 featuredimage: /img/online-study.png
@@ -26,7 +26,7 @@ tags:
   * [NUCT+Teams](https://nuvideo.media.nagoya-u.ac.jp/embed/8a769db1229c4d3b90399d52de424ae608263d51) (1:25:01)
   * [Chat](https://nuss.nagoya-u.ac.jp/s/xBZnTD3CELwHJsA)
 
-## 第5回ワークショップ（NUCT + [NUSS] / 5th Workshop (NUCT + [NUSS] )
+## 第5回ワークショップ（NUCT + NUSS / 5th Workshop (NUCT + NUSS)
 
 * 日時：2020年9月9日（水）・9月11日（金）　10：00～
 * 場所：教養教育院 S1X
