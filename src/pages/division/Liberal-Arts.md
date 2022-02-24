@@ -33,3 +33,5 @@ tags:
 * [**化学実験ホームページ**](http://ac.thers.ac.jp/news/2021-06-24-%E5%8C%96%E5%AD%A6%E5%AE%9F%E9%A8%93%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/)
 
 * [**アカデミック・イングリッシュ支援室（AccESS）**](https://elearn.ilas.nagoya-u.ac.jp/access/wiki.cgi?page=access)
+
+* [**「Studium Generale」のオンディマンド教材開発**](http://ac.thers.ac.jp/news/2022-02-24-%E3%80%8Cstudium-generale%E3%80%8D%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%87%E3%82%A3%E3%83%9E%E3%83%B3%E3%83%89%E6%95%99%E6%9D%90%E9%96%8B%E7%99%BA/)
