@@ -43,7 +43,7 @@ tags:
 日本語の資料は既に多数ありますので、今回はそれらを用います。
 
 
-* [配付資料](https://www.ilas.nagoya-u.ac.jp/PDF/NUCT-Zoom-HLC-20200413-handout.pdf)（抜粋版）（PDF, 1.1 MB）
+* [配付資料](https://ac.thers.ac.jp/files/onlinews/NUCT-Zoom-HLC-20200413-handout.pdf)（抜粋版）（PDF, 1.1 MB）
 * NUCT
   * [はじめに：ツール＆ロール、練習用NUCT](https://media.itc.nagoya-u.ac.jp/studio/ondemand_teaching_materials_guide/deta/03_teacher_using_01.pdf)
   * [サイト情報ツール](https://media.itc.nagoya-u.ac.jp/studio/ondemand_teaching_materials_guide/deta/04_teacher_siteinfo_02.pdf)
@@ -54,7 +54,7 @@ tags:
   * [ビデオ会議ツールの活用について](https://media.itc.nagoya-u.ac.jp/studio/Online-Meeting-Tools-Utilizing-Instructions.pdf)
   * オンライン授業に初めて関わる教員のための教授法
   
-* [上記をまとめたもの](https://www.ilas.nagoya-u.ac.jp/PDF/NUCT-Zoom-HLC-20200413.pdf) (PDF, 23.5 MB)
+* [上記をまとめたもの](https://ac.thers.ac.jp/files/onlinews/NUCT-Zoom-HLC-20200413.pdf) (PDF, 23.5 MB)
 
 
 **ワークショップの動画（視聴には名大IDとPWが必要です）**
@@ -81,10 +81,10 @@ Zoomによる問い合わせ窓口の試行：4/13 13:00-17:00
 
 ワークショップのスライド
 
-* [NUCT] (https://www.ilas.nagoya-u.ac.jp/PDF2/Online-teaching-and-learning-at-NU-HLC200408.pdf)(PDF, 6.8 MB)
-* [Zoom](https://www.ilas.nagoya-u.ac.jp/PDF2/zoom_startup.pdf)(PDF, 6.2 MB)
-* [事前準備資料 ICT requirements](https://office.ilas.nagoya-u.ac.jp/wp-content/uploads/2020/04/ICT_requirements.pdf)
-* [Chromeでストリーミングを視聴するには](https://www.ilas.nagoya-u.ac.jp/PDF2/enable_streaming.pdf)
+* [NUCT](https://ac.thers.ac.jp/files/onlinews/Online-teaching-and-learning-at-NU-HLC200408.pdf)(PDF, 6.8 MB)
+* [Zoom](https://ac.thers.ac.jp/files/onlinews/zoom_startup.pdf)(PDF, 6.2 MB)
+* [事前準備資料 ICT requirements](https://ac.thers.ac.jp/files/onlinews/ICT_requirements.pdf)
+* [Chromeでストリーミングを視聴するには](https://ac.thers.ac.jp/files/onlinews/enable_streaming.pdf)
 
 
 ワークショップの動画（視聴には名大IDとPWが必要です）
