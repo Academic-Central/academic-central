@@ -125,7 +125,7 @@ Free online materials provided by universities
 
 
 
-　 ・[Nagoya University OCW](https://ocw.ilas.nagoya-u.ac.jp/)
+　 ・[Nagoya University OCW](https://ocw.nagoya-u.jp/en)
 
 
 #### Other tools
