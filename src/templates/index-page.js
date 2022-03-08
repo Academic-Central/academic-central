@@ -218,7 +218,9 @@ const IndexPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
-                    <StaticImage src="../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
+                    <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
+                          <StaticImage src="../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
+                    </a>
                   </div>
 
                   <div className="column is-12 featured-content ">
