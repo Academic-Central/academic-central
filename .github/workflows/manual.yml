@@ -37,6 +37,16 @@ jobs:
       # 確認のためのリスト表示　必要なければ削除
       # - name: List output files
       #   run: ls -laFG
+      #
+      # 以下のサイトを参考に github action で build, netlify へ publicフォルダを転送
+      # https://sung.codes/blog/2019/12/25/building-gatsby-with-git-hub-actions-and-deploying-to-netlify/
+      - name: Publish using netlify
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --dir=public --prod
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
       # rsync の設定
       - name: rsync deployments to hlc1

@@ -41,10 +41,10 @@
   "main": "n/a",
   "scripts": {
     "clean": "gatsby clean",
-    "start": "npm run develop",
+    "start": "gatsby develop",
     "build": "gatsby clean && gatsby build",
     "netlify-build": "gatsby clean && gatsby build",
-    "develop": "npm run clean && gatsby develop",
+    "develop": "gatsby clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
