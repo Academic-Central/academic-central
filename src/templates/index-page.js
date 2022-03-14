@@ -237,9 +237,14 @@ const IndexPageTemplate = ({ data }) => (
                       </p>
                     </div>
                     <br />
-                    <Link className="btn" to="/division/QTA/">
-                      Read more
+{/* 
+                     <Link className="btn" to="/division/QTA/">
+                     Read more
                     </Link>
+*/}
+                    <a href="https://ac.thers.ac.jp/qgc/" className="btn">
+                      Go to QTA/GSI WebSite
+                    </a>
                   </div>
                 </article>
               </div>

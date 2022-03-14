@@ -157,7 +157,9 @@ const DivisionPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
+                  <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
                     <StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
+                  </a>
                   </div>
 
                   <div className="column is-12 featured-content ">
@@ -169,10 +171,15 @@ const DivisionPageTemplate = ({ data }) => (
                       </ul>
                     </div>
                     <br />
+{/* 
                     <Link className="btn" to="/division/QTA/">
                       Read more
                     </Link>
-                  </div>
+*/}
+                    <a href="https://ac.thers.ac.jp/qgc/" className="btn">
+                      Go to QTA/GSI WebSite
+                    </a>
+                    </div>
                 </article>
               </div>
               <div className="column post is-6">
