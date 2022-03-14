@@ -164,7 +164,7 @@ const DivisionPageTemplate = ({ data }) => (
 
                   <div className="column is-12 featured-content ">
                     <h3 className="heading post-category">次世代リーダー養成</h3>
-                    <h1 className="title post-title">トランスディシプリナリー博士課程教育推進部門ｰ</h1>
+                    <h1 className="title post-title">QTA・GSI トレーニングセンター</h1>
                     <div className="content">
                       <ul>
                         <li>大学 院生が QTA、GSI として教育に参画するための体制の構築、育成研修の実施</li>
