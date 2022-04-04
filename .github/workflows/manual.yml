@@ -8,6 +8,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+  
 # 以下，jobs の定義
 jobs:
   # 「build」という名前のジョブを定義
