@@ -8,4 +8,4 @@ featuredimage: /img/ac2.jpg
 tags:
   - IDチーム
 ---
-### [**アカデミック・セントラル通信 No.1**](https://ac.thers.ac.jp/files/academic_central_news_no.1.pdf)
+#### [**アカデミック・セントラル通信 No.1**](https://ac.thers.ac.jp/files/academic_central_news_no.1.pdf)
