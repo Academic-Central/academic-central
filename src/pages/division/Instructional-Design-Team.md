@@ -32,3 +32,7 @@ tags:
 * （事務担当）
 
   * 東海国立大学機構 教育戦略部 教育企画課（名古屋大学 教育企画課・教養教育院事務室、岐阜大学 教務課・全学連携教育課）
+
+## TOPICS
+
+* [**アカデミック・セントラル通信 No.1の発刊**](http://ac.thers.ac.jp/news/academic_central_publication/)
