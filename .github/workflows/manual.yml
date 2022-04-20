@@ -17,7 +17,7 @@ jobs:
   # 「build」という名前のジョブを定義
   build:
     # ubunts の最新版を指定
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     # 実行する処理やコマンドを指定
     steps:
