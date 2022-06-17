@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: オンライン教材開発
 date: 2021-12-07T01:37:06.703Z
-slug: test
+slug: ""
 description: このサイトでは、オンライン教材開発に役立つ情報を紹介しています。具体的には、以下の項目について紹介しています。
 featuredimage: /img/online-study.png
 tags:
