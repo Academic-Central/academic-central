@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: オンライン教材開発
 date: 2021-12-07T01:37:06.703Z
-slug: ""
+slug: JP_creating-online-materials
 description: このサイトでは、オンライン教材開発に役立つ情報を紹介しています。具体的には、以下の項目について紹介しています。
 featuredimage: /img/online-study.png
 tags:
@@ -84,7 +84,7 @@ Canvasの利用をご希望の場合は、HLC事務室までご連絡くださ�
 
 4月30日までの期間限定ですが、クラウドビデオ会議サービス「Zoom」が無料で利用できます。既に名古屋大学として申込を済ませてありますので、アカウントを登録すれば利用できます。詳細は以下をご覧下さい。
 
- ・[ビデオ会議ツールの活用について]([https://office.ilas.nagoya-u.ac.jp/meikai/](https://media.itc.nagoya-u.ac.jp/studio/Online-Meeting-Tools-Utilizing-Instructions.pdf))
+ ・[ビデオ会議ツールの活用について](https://media.itc.nagoya-u.ac.jp/studio/Online-Meeting-Tools-Utilizing-Instructions.pdf)
 
 #### Vidyo
 
