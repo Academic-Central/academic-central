@@ -67,7 +67,7 @@ NUCT (Nagoya University Collaboration and course Tools) is an LMS that enables y
 Canvas is also an LMS, and anyone with or without a Nagoya University’s ID can use it. If you would like to use it, contact the HLC office at the Institute of Liberal Arts and Sciences (ILAS).
 
 
-　 ・[CANVAS](https://office.ilas.nagoya-u.ac.jp/canvas/)
+　 ・CANVAS (Being serviced)
 
 
 #### Meikai-kun
