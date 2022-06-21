@@ -70,7 +70,7 @@ tags:
 
 教養教育院では、学外受講生向けに Canvasも利用できます。
 
- ・[CANVAS](https://office.ilas.nagoya-u.ac.jp/canvas/)
+ ・CANVAS (メンテナンス中)
 
 Canvasの利用をご希望の場合は、HLC事務室までご連絡ください。
 
