@@ -31,7 +31,8 @@ jobs:
       - name: Use Node.js 16.x
         uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
+          # node-version: "16.x"
+          node-version: [ 14, 16, 18 ]
       # Node の実行（yarn install, yarn run build）
       - name: Build Project
         run: |
