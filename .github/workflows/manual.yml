@@ -26,14 +26,14 @@ jobs:
       # レポジトリからの checkout を実行
       - uses: actions/checkout@v3
       # Node のセットアップ
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-      # - name: Use Node.js 16.x
+      # - name: Use Node.js ${{ matrix.node-version }}
       #   uses: actions/setup-node@v3
       #   with:
-      #     node-version: "16.x"
+      #     node-version: ${{ matrix.node-version }}
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
       # Node の実行（yarn install, yarn run build）
       - name: Build Project
         run: |
@@ -48,27 +48,27 @@ jobs:
       #
       # 以下のサイトを参考に github action で build, netlify へ publicフォルダを転送
       # https://sung.codes/blog/2019/12/25/building-gatsby-with-git-hub-actions-and-deploying-to-netlify/
-      # - name: Publish using netlify
-      #   uses: netlify/actions/cli@master
-      #   with:
-      #     args: deploy --dir=public --prod
-      #   env:
-      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.2
+      - name: Publish using netlify
+        uses: netlify/actions/cli@master
         with:
-          publish-dir: './dist'
-          production-branch: master
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Deploy from GitHub Actions"
-          enable-pull-request-comment: false
-          enable-commit-comment: true
-          overwrites-pull-request-comment: true
+          args: deploy --dir=public --prod
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      # - name: Deploy to Netlify
+      #   uses: nwtgck/actions-netlify@v1.2
+      #   with:
+      #     publish-dir: './dist'
+      #     production-branch: master
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      #     deploy-message: "Deploy from GitHub Actions"
+      #     enable-pull-request-comment: false
+      #     enable-commit-comment: true
+      #     overwrites-pull-request-comment: true
+      #   env:
+      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      #   timeout-minutes: 1
       # rsync の設定
       - name: rsync deployments to hlc1
         uses: burnett01/rsync-deployments@4.1
