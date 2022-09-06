@@ -18,21 +18,22 @@ jobs:
   build:
     # ubunts の最新版を指定
     runs-on: ubuntu-20.04
-
+    strategy:
+          matrix:
+            node-version: [10.x, 12.x, 14.x, 16.x, 18.x]
     # 実行する処理やコマンドを指定
     steps:
       # レポジトリからの checkout を実行
       - uses: actions/checkout@v3
-      #      - uses: enriikke/gatsby-gh-pages-action@v2
-      #        with:
-      #          access-token: ${{ secrets.ACCESS_TOKEN }}
-      #          gatsby-args: --prefix-paths
       # Node のセットアップ
-      - name: Use Node.js 16.x
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          # node-version: "16.x"
-          node-version: [ 14, 16, 18 ]
+          node-version: ${{ matrix.node-version }}
+      # - name: Use Node.js 16.x
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     node-version: "16.x"
       # Node の実行（yarn install, yarn run build）
       - name: Build Project
         run: |
