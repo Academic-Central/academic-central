@@ -28,10 +28,10 @@ jobs:
       #          access-token: ${{ secrets.ACCESS_TOKEN }}
       #          gatsby-args: --prefix-paths
       # Node のセットアップ
-      - name: Use Node.js 14.x
+      - name: Use Node.js 18.x
         uses: actions/setup-node@v1
         with:
-          node-version: "14.x"
+          node-version: "18.x"
       # Node の実行（npm install, npm run build）
       - name: Build Project
         run: |
