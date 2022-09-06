@@ -26,14 +26,14 @@ jobs:
       # レポジトリからの checkout を実行
       - uses: actions/checkout@v3
       # Node のセットアップ
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-      # - name: Use Node.js 16.x
+      # - name: Use Node.js ${{ matrix.node-version }}
       #   uses: actions/setup-node@v3
       #   with:
-      #     node-version: "16.x"
+      #     node-version: ${{ matrix.node-version }}
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
       # Node の実行（yarn install, yarn run build）
       - name: Build Project
         run: |
