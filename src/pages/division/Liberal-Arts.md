@@ -23,14 +23,13 @@ tags:
   * 廣内　大輔　　岐阜大学　教育推進・学生支援機構 基盤教育センター副センター長
   * 賴　偉寧　　　名古屋大学　教養教育院アカデミック・ライティングセンター長
   * 清島　絵利子　岐阜大学　教育推進・学生支援機構 基盤教育センター副センター長 　
-
 * （事務担当）
 
   * 名古屋大学 教養教育院事務室，岐阜大学 全学連携教育課・教務課
 
 ## TOPICS
 
-* **[名古屋大学全学教育物理学実験](http://ac.thers.ac.jp/news/2021-06-07-%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%A4%A7%E5%AD%A6%E5%85%A8%E5%AD%A6%E6%95%99%E8%82%B2%E7%89%A9%E7%90%86%E5%AD%A6%E5%AE%9F%E9%A8%93/)**
-* **[化学実験ホームページ](http://ac.thers.ac.jp/news/2021-06-24-%E5%8C%96%E5%AD%A6%E5%AE%9F%E9%A8%93%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/)**
-* **[アカデミック・イングリッシュ支援室（AccESS）](https://elearn.ilas.nagoya-u.ac.jp/access/wiki.cgi?page=access)**
-* **[「Studium Generale」のオンディマンド教材開発](http://ac.thers.ac.jp/news/2022-02-24-%E3%80%8Cstudium-generale%E3%80%8D%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%87%E3%82%A3%E3%83%9E%E3%83%B3%E3%83%89%E6%95%99%E6%9D%90%E9%96%8B%E7%99%BA/)**
+* **名古屋大学全学教育物理学実験**
+* **[化学実験ホームページ](http://ac.thers.ac.jp/news/chemistry_experiment/)**
+* **[アカデミック・イングリッシュ支援室（AccESS）](http://ac.thers.ac.jp/news/access/)**
+* **[「Studium Generale」のオンディマンド教材開発](http://ac.thers.ac.jp/news/studium_generale_creating_online_materials/)**
