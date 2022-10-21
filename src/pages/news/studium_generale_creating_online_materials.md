@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 「Studium Generale」のオンディマンド教材開発
-date: 2022-02-24T05:41:03.869Z
+date: 2022-10-21T06:05:21.039Z
 description: オンディマンド型のe-Learning教材開発について
 featuredimage: /img/ac4.jpg
 tags:
