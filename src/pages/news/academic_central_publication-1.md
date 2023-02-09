@@ -9,4 +9,4 @@ tags:
   - IDチーム
 ---
 #### [**アカデミック・セントラル通信 No.2**]
-(https://ac.thers.ac.jp/files/academic_central_news_no.2.pdf)
+<https://ac.thers.ac.jp/files/academic_central_news_no.2.pdf>
