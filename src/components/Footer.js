@@ -64,7 +64,7 @@ const Footer = class extends React.Component {
                       </a>
                     </li>
                     <li>
-                      <a className="navbar-item" href="https://www.gifu.ac.jp">
+                      <a className="navbar-item" href="https://www.gifu-u.ac.jp/">
                         岐阜大学
                       </a>
                     </li>
