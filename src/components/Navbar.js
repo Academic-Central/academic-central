@@ -70,7 +70,7 @@ const Navbar = class extends React.Component {
                   <div className="navbar-item">IDチーム</div>
                 </Link>
                 <Link to="/division/Regional-Centre-For-Higher-Education/">
-                  <div className="navbar-item">I地域高等教育基盤センター</div>
+                  <div className="navbar-item">地域高等教育基盤センター</div>
                 </Link>
 
                 <hr className="navbar-divider" />
