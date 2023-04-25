@@ -69,7 +69,7 @@ const DivisionPageTemplate = ({ data }) => (
                 <div className="column post is-6">
                     <article className="columns is-multiline">
                       <div className="column is-12 post-img">
-                        <StaticImage src="../img/ac8.jpg" alt="地域高等教育基盤センター" placeholder="blurred" />
+                        <StaticImage src="../img/ac9.jpg" alt="地域高等教育基盤センター" placeholder="blurred" />
                       </div>
                       <div className="column is-12 featured-content ">
                         <h3 className="heading post-category">地域創生に係る教育</h3>
