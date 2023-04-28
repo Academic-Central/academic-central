@@ -19,7 +19,7 @@ class BlogRoll extends React.Component {
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: post.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${post.frontmatter.title}`
+                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                       }}
                     />
                   </div>
@@ -50,9 +50,9 @@ class BlogRoll extends React.Component {
 BlogRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 export default function BlogRollQuery() {
@@ -60,7 +60,7 @@ export default function BlogRollQuery() {
     <StaticQuery
       query={graphql`
         query {
-          allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: { frontmatter: { templateKey: { eq: "blog-post" } } }) {
+          allMarkdownRemark(sort: { frontmatter: { date: DESC } }, filter: { frontmatter: { templateKey: { eq: "blog-post" } } }) {
             edges {
               node {
                 excerpt(pruneLength: 100)

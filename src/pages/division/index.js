@@ -67,27 +67,27 @@ const DivisionPageTemplate = ({ data }) => (
                   </div>
                 </article>
                 <div className="column post is-6">
-                    <article className="columns is-multiline">
-                      <div className="column is-12 post-img">
-                        <StaticImage src="../img/ac9.jpg" alt="地域高等教育基盤センター" placeholder="blurred" />
+                  <article className="columns is-multiline">
+                    <div className="column is-12 post-img">
+                      <StaticImage src="../../img/ac9.jpg" alt="地域高等教育基盤センター" placeholder="blurred" />
+                    </div>
+                    <div className="column is-12 featured-content ">
+                      <h3 className="heading post-category">地域創生に係る教育</h3>
+                      <h1 className="title post-title">地域高等教育基盤センター</h1>
+                      <div className="content">
+                        <ul>
+                          <li>機構が推進する東海地域の地域創生に係る教育の企画、立案及び調整</li>
+                          <li>地域におけるニーズや課題を把握し、それらに対する先駆的な取組を提案・実施</li>
+                          <li>個々の大学では困難であった地域の教育力強化の促進</li>
+                        </ul>
                       </div>
-                      <div className="column is-12 featured-content ">
-                        <h3 className="heading post-category">地域創生に係る教育</h3>
-                        <h1 className="title post-title">地域高等教育基盤センター</h1>
-                        <div className="content">
-                          <ul>
-                            <li>機構が推進する東海地域の地域創生に係る教育の企画、立案及び調整</li>
-                            <li>地域におけるニーズや課題を把握し、それらに対する先駆的な取組を提案・実施</li>
-                            <li>個々の大学では困難であった地域の教育力強化の促進</li>
-                          </ul>
-                        </div>
-                        <br />
-                        <Link className="btn" to="/division/Regional-Centre-For-Higher-Education/">
-                          Read more
-                        </Link>
-                      </div>
-                    </article>
-                  </div> 
+                      <br />
+                      <Link className="btn" to="/division/Regional-Centre-For-Higher-Education/">
+                        Read more
+                      </Link>
+                    </div>
+                  </article>
+                </div>
               </div>
             </div>
             <hr />
@@ -179,13 +179,9 @@ const DivisionPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
-
-                  <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
-
-                    <StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
-
-                  </a>
-
+                    <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
+                      <StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
+                    </a>
                   </div>
 
                   <div className="column is-12 featured-content ">
@@ -197,17 +193,15 @@ const DivisionPageTemplate = ({ data }) => (
                       </ul>
                     </div>
                     <br />
- 
-                    {/* <Link className="btn" to="/division/QTA/"> 
-                       Read more 
-                     </Link> */}
 
+                    {/* <Link className="btn" to="/division/QTA/">
+                       Read more
+                     </Link> */}
 
                     <a href="https://ac.thers.ac.jp/qgc/" className="btn">
                       Go to QTA/GSI WebSite
                     </a>
-
-                    </div>
+                  </div>
                 </article>
               </div>
               <div className="column post is-6">

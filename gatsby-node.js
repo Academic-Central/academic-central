@@ -18,7 +18,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const blogResult = await graphql(
     `
       {
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }, limit: 1000) {
+        allMarkdownRemark(sort: { frontmatter: { date: ASC } }, limit: 1000) {
           nodes {
             id
             fields {
@@ -49,7 +49,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       createNodeField({
         name: `slug`,
         node,
-        value
+        value,
       });
     }
   };
@@ -68,8 +68,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         context: {
           id: post.id,
           previousPostId,
-          nextPostId
-        }
+          nextPostId,
+        },
       });
     });
   }
@@ -77,7 +77,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Tag pages:
   let tags = [];
   // Iterate through each post, putting all found tags into `tags`
-  posts.forEach(post => {
+  posts.forEach((post) => {
     // if (_.get(post, `post.frontmatter.tags`)) {
     tags = tags.concat(post.frontmatter.tags);
     // }
@@ -88,19 +88,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Delete null tag
   tags = tags.filter(function (e) {
-    return e != null
-  })
-  
+    return e != null;
+  });
+
   // Make tag pages
-  tags.forEach(tag => {
+  tags.forEach((tag) => {
     const tagPath = `/tags/${_.kebabCase(tag)}/`;
 
     createPage({
       path: tagPath,
       component: path.resolve(`src/templates/tags.js`),
       context: {
-        tag
-      }
+        tag,
+      },
     }); // End createPage
   }); // End Make tag pages
 };
@@ -114,7 +114,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value
+      value,
     });
   }
 };
