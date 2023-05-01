@@ -45,3 +45,5 @@ tags:
 ## TOPICS
 
 * **[アカデミック・セントラル通信 No.1の発刊](http://ac.thers.ac.jp/news/academic_central_publication/)**
+* **[アカデミック・セントラル通信 No.2の発刊](http://ac.thers.ac.jp/news/academic_central_publication-1/)**
+* **[アカデミック・セントラル通信 No.3の発刊](http://ac.thers.ac.jp/news/academic_central_publication-2/)**
