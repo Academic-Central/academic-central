@@ -45,6 +45,7 @@ jobs:
         run: |
           yarn
           yarn run build
+          cat node_modules/graphql/package.json
       # npm の場合は以下
         # npm install
         # npm run build
