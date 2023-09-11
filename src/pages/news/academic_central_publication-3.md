@@ -8,4 +8,4 @@ featuredimage: /img/ac2.jpg
 tags:
   - IDチーム
 ---
-#### <https://ac.thers.ac.jp/files/2023新任教員研修レポート.pdf>
+#### [**2023年度新任教員研修の概要報告**](https://ac.thers.ac.jp/files/2023新任教員研修レポート.pdf)
