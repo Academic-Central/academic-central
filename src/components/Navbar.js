@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from "gatsby";
 import aclogo from "../img/AcademicCentral_logo_0930_b.svg";
 // import logo from "../img/ac-logo.svg";
+import { FaHome } from "@react-icons/all-files/fa/FaHome";
 
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       active: false,
-      navBarActiveClass: ""
+      navBarActiveClass: "",
     };
   }
 
@@ -16,17 +17,17 @@ const Navbar = class extends React.Component {
     // toggle the active boolean in the state
     this.setState(
       {
-        active: !this.state.active
+        active: !this.state.active,
       },
       // after state has been updated,
       () => {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "is-active"
+              navBarActiveClass: "is-active",
             })
           : this.setState({
-              navBarActiveClass: ""
+              navBarActiveClass: "",
             });
       }
     );
@@ -90,6 +91,13 @@ const Navbar = class extends React.Component {
                 <Link to="/division/QTA/">
                   <div className="navbar-item">QTAセンター</div>
                 </Link>
+                <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
+                  <div className="navbar-item">
+                    &nbsp;&nbsp;
+                    <FaHome />
+                    ホームページ
+                  </div>
+                </a>
                 <Link to="/division/Life-Concept/">
                   <div className="navbar-item">⼈⽣構想⼒部⾨</div>
                 </Link>
