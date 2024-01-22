@@ -46,4 +46,5 @@ tags:
 * **[アカデミック・セントラル通信 No.3の発刊](http://ac.thers.ac.jp/news/academic_central_publication-2/)**
 * **[アカデミック・セントラル通信 No.4の発刊]
 (http://ac.thers.ac.jp/news/academic_central_publication-4/)**
+
 * **[2023年度新任教員研修の概要報告](https://ac.thers.ac.jp/files/2023新任教員研修レポート.pdf)**
