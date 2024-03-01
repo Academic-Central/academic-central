@@ -4,7 +4,7 @@ title: 機構単位互換
 date: 2024-03-1T04:23:35.755Z
 description: 東海国立大学機構では、機構内の大学が開講する指定された授業科目を受講し、卒業に必要な単位とすることができるようになりました。
 featuredpost: true
-featuredimage: 
+featuredimage: /img/online-study.png
 tags:
 
 ---
