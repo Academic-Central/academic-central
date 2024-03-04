@@ -29,9 +29,9 @@ tags:
 
 ## TOPICS
 
-* **[名古屋大学全学教育物理学実験](https://ac.thers.ac.jp/news/physics_experiment/)**
 * **[連携開設科目](http://ac.thers.ac.jp/news/collaborative_course_offering/)**
 * **[機構単位互換](http://ac.thers.ac.jp/news/institutional_credit_transfer/)**
+* **[名古屋大学全学教育物理学実験](https://ac.thers.ac.jp/news/physics_experiment/)**
 * **[化学実験ホームページ](http://ac.thers.ac.jp/news/chemistry_experiment/)**
 * **[アカデミック・イングリッシュ支援室（AccESS）](http://ac.thers.ac.jp/news/access/)**
 * **[「Studium Generale」のオンディマンド教材開発](http://ac.thers.ac.jp/news/studium_generale_creating_online_materials/)**
