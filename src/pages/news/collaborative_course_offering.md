@@ -12,6 +12,8 @@ tags:
   * 岐阜大学　全学共通教育科目
     - [連携開設科目について](https://www.orphess.gifu-u.ac.jp/liberal_arts_education/GeneralEducationSubjects/collaboration.html)
   * 名古屋大学　全学教育科目
+    - [2024年度春学期岐阜大学連携開設科目の履修登録について](https://office.ilas.nagoya-u.ac.jp/news/2024_spring_registration_renkeikaisetsu/)
+
     - [2023年度秋学期岐阜大学連携開設科目の履修登録について](https://office.ilas.nagoya-u.ac.jp/news/2023fall_registration_renkeikaisetsu/)
     
     - [2023年度春学期岐阜大学連携開設科目の履修登録について](https://office.ilas.nagoya-u.ac.jp/news/2023spring_registration_renkeikaisetsu/)
