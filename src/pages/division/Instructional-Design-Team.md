@@ -43,9 +43,10 @@ tags:
   * 東海国立大学機構 教育戦略部 教育戦略課（岐阜大学 教務課、名古屋大学 教育企画課）、岐阜大学 全学連携教育課、名古屋大学 全学教育推進課
 
 ## TOPICS
-
-* **[アカデミック・セントラル通信 No.1の発刊](http://ac.thers.ac.jp/news/academic_central_publication/)**
-* **[アカデミック・セントラル通信 No.2の発刊](http://ac.thers.ac.jp/news/academic_central_publication-1/)**
-* **[アカデミック・セントラル通信 No.3の発刊](http://ac.thers.ac.jp/news/academic_central_publication-2/)**
-* **[アカデミック・セントラル通信 No.4の発刊](http://ac.thers.ac.jp/news/academic_central_publication-4/)**
+* **[東海国立大学機構教育グッドプラクティス機構長特別表彰式の開催報告](https://ac.thers.ac.jp/files/GP-Award.pdf)**
 * **[2023年度新任教員研修の概要報告](https://ac.thers.ac.jp/files/2023新任教員研修レポート.pdf)**
+* **[アカデミック・セントラル通信 No.4の発刊](http://ac.thers.ac.jp/news/academic_central_publication-4/)**
+* **[アカデミック・セントラル通信 No.3の発刊](http://ac.thers.ac.jp/news/academic_central_publication-2/)**
+* **[アカデミック・セントラル通信 No.2の発刊](http://ac.thers.ac.jp/news/academic_central_publication-1/)**
+* **[アカデミック・セントラル通信 No.1の発刊](http://ac.thers.ac.jp/news/academic_central_publication/)**
+
