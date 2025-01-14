@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18.x"
-          cache: 'yarn'
+          cache: 'npm'
 
       # Node の複数バージョンを指定する場合は以下．
       # strategy:
@@ -43,11 +43,11 @@ jobs:
       # Node の実行（yarn install, yarn run build）
       - name: Build Project
         run: |
-          yarn
-          yarn run build
+          # yarn
+          # yarn run build
       # npm の場合は以下
-        # npm install
-        # npm run build
+        npm install
+        npm run build
       # 確認のためのリスト表示　必要なければ削除
       # - name: List output files
       #   run: ls -laFG
