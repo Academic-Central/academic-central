@@ -17,18 +17,18 @@ jobs:
   # 「build」という名前のジョブを定義
   build:
     # ubunts の最新版を指定
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     # 実行する処理やコマンドを指定
     steps:
       # レポジトリからの checkout を実行
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # Node のセットアップ
-      - name: Use Node.js 18.x
-        uses: actions/setup-node@v3
+      - name: Use Node.js 
+        uses: actions/setup-node@v4
         with:
-          node-version: "18.x"
+          node-version-file: 'package.json'
           cache: 'npm'
 
       # Node の複数バージョンを指定する場合は以下．
