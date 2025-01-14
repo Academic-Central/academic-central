@@ -43,9 +43,6 @@ jobs:
       # Node の実行（yarn install, yarn run build）
       - name: Build Project
         run: |
-          # yarn
-          # yarn run build
-      # npm の場合は以下
           npm install
           npm run build
       # 確認のためのリスト表示　必要なければ削除
