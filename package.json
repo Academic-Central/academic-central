@@ -1,13 +1,14 @@
 {
   "name": "academic-central-cms",
   "description": "Tokai National Higher Education and Research System CMS project",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Takaya Yamazato",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "bulma": "^1.0.3",
     "gatsby": "^5.14.1",
     "gatsby-image": "^3.11.0",
+    "gatsby-plugin-canonical-urls": "^5.14.0",
     "gatsby-plugin-google-analytics": "^5.14.0",
     "gatsby-plugin-image": "^3.14.0",
     "gatsby-plugin-purgecss": "^6.2.1",
@@ -43,7 +44,7 @@
     "netlify-build": "gatsby clean && gatsby build",
     "develop": "gatsby clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "package update w/o ncu -u": "ncu -u && rm -rf node_modules yarn.lock && npm install && npm run build",
+    "package update w/o ncu -u": "rm -rf node_modules yarn.lock && npm install && npm run build",
     "npm package update": "ncu -u && rm -rf node_modules yarn.lock && npm install && npm run build"
   },
   "devDependencies": {

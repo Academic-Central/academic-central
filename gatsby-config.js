@@ -2,7 +2,7 @@ module.exports = {
   // flags: {
   //   DEV_SSR: true
   // },
-  // pathPrefix: `~yamazato`,　//チェック用
+  // pathPrefix: `~yamazato`, //チェック用
   siteMetadata: {
     title: "Academic Central - Tokai National Higher Education and Research System",
     description: "Academic Central will design education in the Tokai National Higher Education and Research System and promote various initiatives in Gifu University and Nagoya University.",
@@ -12,6 +12,12 @@ module.exports = {
     }
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://ac.thers.ac.jp/`,
+      },
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     {
