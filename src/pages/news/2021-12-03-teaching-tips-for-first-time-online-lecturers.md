@@ -115,7 +115,7 @@ It is convenient to have two PCs. One is for lectures, and the other is for chec
 <a id="anchor5"></a>
 #### Live online lecture (Some participate online)
 
-The Vidyo is the right choice in the case where some students are in the classroom, and others are online.
+The Vidyo* is the right choice in the case where some students are in the classroom, and others are online.
 
 When writing on the blackboard, make the letters large enough for online participants to read.\
 Check the size in advance with a mobile or PC whether the students who participate online can see.
@@ -125,6 +125,8 @@ Have a device at hand to keep track of your online audience, separate from the e
 Even if there are only a small number of students in the classroom, always use a microphone.
 
 Provide speaking opportunities for online participants every 15 minutes to capture the learning status of students who are not in the classroom. Appoint students to speak out by asking for answers to questions.
+
+**The service was terminated as of March 2025.
 
 ---
 <a id="anchor6"></a>
