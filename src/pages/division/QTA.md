@@ -26,7 +26,7 @@ tags:
 
   - 後藤　英恵　　名古屋大学 教育基盤連携本部
 
-<br>
+---
 
-[QTA・GSI制度について](https://ac.thers.ac.jp/qgc/)  
-[QTA・GSI研修の最新情報や実施要領について（機構内限定）](https://thersacjp.sharepoint.com/sites/QTAGSI/SitePages/Home.aspx?ga=1)
+- [QTA・GSI制度について](https://ac.thers.ac.jp/qgc/)  
+- [QTA・GSI研修の最新情報や実施要領について（機構内限定）](https://thersacjp.sharepoint.com/sites/QTAGSI/SitePages/Home.aspx?ga=1)
