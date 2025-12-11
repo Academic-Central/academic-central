@@ -177,34 +177,48 @@ const DivisionPageTemplate = ({ data }) => (
                 </article>
               </div>
               <div className="column post is-6">
-                <article className="columns is-multiline">
-                  <div className="column is-12 post-img">
-                     {/* <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
-                      <StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
-                    </a> */}
-　　　　　　　　　　　<StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />　  
-                  </div>
+  <article className="columns is-multiline">
 
-                  <div className="column is-12 featured-content ">
-                    <h3 className="heading post-category">次世代リーダー養成</h3>
-                    <h1 className="title post-title">QTA・GSI トレーニングセンター</h1>
-                    <div className="content">
-                      <ul>
-                        <li>大学 院生が QTA、GSI として教育に参画するための体制の構築、育成研修の実施</li>
-                      </ul>
-                    </div>
-                    <br />
+    <div className="column is-12 post-img">
+      {/* 
+      <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
+        <StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
+      </a> 
+      */}
+      <StaticImage
+        src="../../img/ac7.jpg"
+        alt="QTA・GSI トレーニングセンター"
+        placeholder="blurred"
+      />
+    </div>
 
-                   <Link className="btn" to="/division/QTA/">
-                       Read more
-                     </Link>
+    <div className="column is-12 featured-content ">
+      <h3 className="heading post-category">次世代リーダー養成</h3>
+      <h1 className="title post-title">QTA・GSI トレーニングセンター</h1>
 
-                      {/* <a href="https://ac.thers.ac.jp/qgc/" className="btn">
-                      Go to QTA/GSI WebSite
-                    </a> */}
-                  </div>
-                </article>
-              </div>
+      <div className="content">
+        <ul>
+          <li>
+            大学院生が QTA、GSI として教育に参画するための体制の構築、育成研修の実施
+          </li>
+        </ul>
+      </div>
+
+      <br />
+
+      <Link className="btn" to="/division/QTA/">
+        Read more
+      </Link>
+
+      {/*
+      <a href="https://ac.thers.ac.jp/qgc/" className="btn">
+        Go to QTA/GSI WebSite
+      </a>
+      */}
+    </div>
+
+  </article>
+</div>
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
