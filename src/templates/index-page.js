@@ -266,10 +266,12 @@ const IndexPageTemplate = ({ data }) => (
                      Read more
                     </Link>
 
-                    {/* <a href="https://ac.thers.ac.jp/qgc/" className="btn">
-                      Go to QTA/GSI WebSite */}
-                    </a> */}
-                  
+                    {/* 
+                    <a href="https://ac.thers.ac.jp/qgc/" className="btn">
+                      Go to QTA/GSI WebSite
+                    </a>
+                    */}
+                                      
 　　　　　　　　　　</div>
                 </article>
               </div>
