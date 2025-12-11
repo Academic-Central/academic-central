@@ -2,13 +2,11 @@
 templateKey: pages
 title: QTA・GSIトレーニングセンター
 description: QTA・GSIトレーニングセンターでは、大学院生が QTA、GSI として教育に参画するための体制の構築、育成研修を実施します。
-date: 2022-06-02T02:22:18.962Z
+date: 2025-12-11T12:11:00.962Z
 tags:
-  - QTA センター
-  - 2023年度メンバー
+  - 
+  - 
 ---
-
-[ホームページはこちら](https://ac.thers.ac.jp/qgc/)
 
 ## メンバー
 
@@ -30,6 +28,3 @@ tags:
 
   - 東海国立大学機構 教育戦略部 教育戦略課（名古屋大学 教育企画課、岐阜大学 教務課）
 
-## TOPICS
-
-- [**オンラインセミナー（2022.2.21開催）**](https://ac.thers.ac.jp/news/qta_qsi_online_seminar/)
