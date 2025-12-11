@@ -91,13 +91,15 @@ const Navbar = class extends React.Component {
                 <Link to="/division/QTA/">
                   <div className="navbar-item">QTAセンター</div>
                 </Link>
-                <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
-                  <div className="navbar-item">
-                    &nbsp;&nbsp;
-                    <FaHome />
-                    ホームページ
-                  </div>
-                </a>
+                {/*
+                  <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
+                    <div className="navbar-item">
+                      &nbsp;&nbsp;
+                      <FaHome />
+                      ホームページ
+                    </div>
+                  </a>
+                  */}
                 <Link to="/division/Life-Concept/">
                   <div className="navbar-item">⼈⽣構想⼒部⾨</div>
                 </Link>
