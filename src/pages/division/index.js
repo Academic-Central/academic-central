@@ -182,7 +182,7 @@ const DivisionPageTemplate = ({ data }) => (
                      {/* <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
                       <StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
                     </a> */}
-　　　　　　　　　　　　<StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />　　　  
+　　　　　　　　　　　<StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />　  
                   </div>
 
                   <div className="column is-12 featured-content ">
