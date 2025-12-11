@@ -179,9 +179,10 @@ const DivisionPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
-                    <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
+                     {/* <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
                       <StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
-                    </a>
+                    </a> */}
+　　　　　　　　　　　　<StaticImage src="../../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />　　　  
                   </div>
 
                   <div className="column is-12 featured-content ">
@@ -194,13 +195,13 @@ const DivisionPageTemplate = ({ data }) => (
                     </div>
                     <br />
 
-                    {/* <Link className="btn" to="/division/QTA/">
+                   <Link className="btn" to="/division/QTA/">
                        Read more
-                     </Link> */}
+                     </Link>
 
-                    <a href="https://ac.thers.ac.jp/qgc/" className="btn">
+                      {/* <a href="https://ac.thers.ac.jp/qgc/" className="btn">
                       Go to QTA/GSI WebSite
-                    </a>
+                    </a> */}
                   </div>
                 </article>
               </div>
