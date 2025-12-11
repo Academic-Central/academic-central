@@ -240,7 +240,7 @@ const IndexPageTemplate = ({ data }) => (
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
-                    <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer">
+                   {/* <a href="https://ac.thers.ac.jp/qgc/" target="_blank" rel="noopener noreferrer"> */}
                       <StaticImage src="../img/ac7.jpg" alt="QTA・GSI トレーニングセンター" placeholder="blurred" />
                     </a>
                   </div>
@@ -260,14 +260,15 @@ const IndexPageTemplate = ({ data }) => (
                     </div>
                     <br />
 
-                    {/* <Link className="btn" to="/division/QTA/">
+                    <Link className="btn" to="/division/QTA/">
                      Read more
-                    </Link>*/}
+                    </Link>
 
-                    <a href="https://ac.thers.ac.jp/qgc/" className="btn">
-                      Go to QTA/GSI WebSite
-                    </a>
-                  </div>
+                    {/* <a href="https://ac.thers.ac.jp/qgc/" className="btn">
+                      Go to QTA/GSI WebSite */}
+                    </a> */}
+                  
+　　　　　　　　　　</div>
                 </article>
               </div>
               <div className="column post is-6">
