@@ -276,8 +276,6 @@ const IndexPageTemplate = ({ data }) => (
     </div>
   </article>
 </div>
-                </article>
-              </div>
               <div className="column post is-6">
                 <article className="columns is-multiline">
                   <div className="column is-12 post-img">
