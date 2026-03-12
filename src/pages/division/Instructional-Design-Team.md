@@ -2,7 +2,7 @@
 templateKey: pages
 title: インストラクショナル・デザインチーム
 description: インストラクショナル・デザインチームは、アカデミック・セントラルにおける企画立案を担当します。
-date: 2025-03-21T12:03:00.769Z
+date: 2026-03-12T11:19:00.769Z
 tags:
   - IDチーム
 ---
@@ -38,6 +38,7 @@ tags:
   * 東海国立大学機構 教育戦略部 教育戦略課（岐阜大学 教務課、名古屋大学 教育企画課）、岐阜大学 全学連携教育課、名古屋大学 全学教育推進課
 
 ## TOPICS
+* **[アカデミック・セントラル通信 No.6の発刊](https://ac.thers.ac.jp/news/academic_central_publication-6/)**
 * **[東海国立大学機構教育グッドプラクティス機構長特別表彰式の開催報告](https://ac.thers.ac.jp/news/gp-award-2025/)**
 * **[アカデミック・セントラル通信 No.5の発刊](https://ac.thers.ac.jp/news/academic_central_publication-5/)**
 * **[アカデミック・セントラル通信 No.4の発刊](http://ac.thers.ac.jp/news/academic_central_publication-4/)**
