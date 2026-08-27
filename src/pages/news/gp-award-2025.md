@@ -8,4 +8,4 @@ featuredimage: /img/ac2.jpg
 tags:
   - IDチーム
 ---
-[東海国立大学機構教育グッドプラクティス機構長特別表彰式の開催報告](https://ac.thers.ac.jp/files/GP-Award-2025.pdf)
+[東海国立大学機構教育グッドプラクティス機構長特別表彰式の開催報告（第2回）](https://ac.thers.ac.jp/files/GP-Award-2025.pdf)
